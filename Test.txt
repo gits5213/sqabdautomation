@@ -1,1 +1,2 @@
-Testing git add
+Testing git add.
+Git file added Successfully.
