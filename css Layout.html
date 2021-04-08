@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Template</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        header {
+            background-color: chartreuse;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            color: black;
+        }
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            background-color:yellow;
+            padding: 20px;
+            color: red;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+
+        }
+        article {
+            float: left;
+            width: 70%;
+            height: 300px;
+            background-color: rebeccapurple;
+            padding: 20px;
+        }
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer {
+            background-color: gold;
+            padding: 10px;
+            text-align: center;
+            font-size: 30px;
+            color: black;
+        }
+        @media(max-width: 600px) {
+            nav,article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Layout Float</h2>
+    <p>In this example , we have created a header, two columns/boxes and a footer. on smallerscreens , the columns will stack on top of each other.</p>
+    <p>Resize the browser window to see the  responsive effect (you will learn more about this  in our next chapter -HTML Responsive.)</p>
+
+    <header>
+        <h2>Cities</h2>
+
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">London</a></li>
+                <li><a href="#">Mymensing</a></li>
+                <li><a href="#">Dhaka</a></li>
+
+            </ul>
+        </nav>
+         
+        <article>
+            <h1>London</h1>
+            <p>London is the capital city of England . it is the most populous city in the united kingdom</p>
+
+            <p>Standing on the River Thames, London has been a major seletlment</p>
+
+        </article>
+         
+
+    </section>
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
