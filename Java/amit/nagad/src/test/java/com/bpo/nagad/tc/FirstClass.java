@@ -8,3 +8,13 @@ class FirstClass {
 
     }
 }
+//JDK - java development kit
+//JVM - java virtual machine
+//JRE = java runtime environment
+
+/*
+java variable
+java data type
+operators
+
+ */
