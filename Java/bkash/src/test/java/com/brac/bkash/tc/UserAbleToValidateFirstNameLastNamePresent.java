@@ -1,28 +1,14 @@
 package com.brac.bkash.tc;
 
+import com.brac.bkash.utilities.Data;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
-public class UserAbleToValidateFirstNameLastNamePresent {
+public class UserAbleToValidateFirstNameLastNamePresent extends Common{
 
-
-    public static void main(String[] args) throws InterruptedException {
-
-        //Pre-condition: Browser Install + Browser Configuration + Browser (Chrome)
-        String baseDir = System.getProperty("user.dir");
-        String chromeDir = baseDir + "/browser/chromedriver";
-
-        System.setProperty("webdriver.chrome.driver", chromeDir);
-
-        WebDriver driver = new ChromeDriver();
-
-        //Open Browser
-        //Navigate to the URL (https://www.google.com/)
-        driver.get("https://www.facebook.com/");
-        Thread.sleep(2000);
-        //driver.navigate().to("https://www.facebook.com/");
+    @Test
+    public void userAbleToValidateFirstNameLastNamePresent() throws InterruptedException {
 
         WebElement forgetPass = driver.findElement(By.cssSelector("._6ltj > a"));
         forgetPass.click();
@@ -30,15 +16,11 @@ public class UserAbleToValidateFirstNameLastNamePresent {
         WebElement phoneNumber = driver.findElement(By.cssSelector("#identify_email"));
         //Soft assertion
         if(phoneNumber.isEnabled()){
-            phoneNumber.sendKeys("917-561-6554");
+            phoneNumber.sendKeys(Data.phoneNumber);
         }else {
-            System.out.println("Phone number input field is disable!");
+            System.out.println(Data.nagativeErrorMessage);
         }
-
-        Thread.sleep(2000);
-
-        //Browser close
-        driver.quit();
+        sleepTest(2000);
     }
 
 }
