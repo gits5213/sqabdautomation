@@ -17,6 +17,7 @@ public class JavaVariable {
 
         int B =5;
         System.out.println(B);
+        System.out.println(C);
         String learing = "Java";
         System.out.println(learing);
 
