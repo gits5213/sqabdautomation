@@ -9,8 +9,13 @@
                 </methods>
             </class>
             <class name ="com.brac.bkash.tc.UserAbleToValidateCreateNewAccount">
+            <methods>
+                <include name="userAbleToValidateCreateNewAccount" />
+            </methods>
+            </class>
+            <class name ="com.brac.bkash.tc.ABTesting">
                 <methods>
-                    <include name="userAbleToValidateCreateNewAccount" />
+                    <include name="aBTesting" />
                 </methods>
             </class>
         </classes>

@@ -12,6 +12,7 @@ public class UserAbleToValidateFirstNameLastNamePresent extends BaseTest {
     @Test
     public void userAbleToValidateFirstNameLastNamePresent(){
 
+        driver.navigate().to(Data.FACEBOOK_URL);
         LogInSignUp lisu = new LogInSignUp(driver);
         ForgotPassword fp = new ForgotPassword(driver);
 
@@ -19,9 +20,9 @@ public class UserAbleToValidateFirstNameLastNamePresent extends BaseTest {
         sleepTest(1000);
 
         if(fp.getPhoneNumber().isEnabled()){
-            fp.getPhoneNumber().sendKeys(Data.phoneNumber);
+            fp.getPhoneNumber().sendKeys(Data.PHONE_NUMBER);
         }else {
-            System.out.println(Data.nagativeErrorMessage);
+            System.out.println(Data.NAGATIVE_ERROR_MESSAGE);
         }
         sleepTest(2000);
     }

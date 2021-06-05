@@ -9,7 +9,10 @@ com/brac/bkash/oopsConcept/Bike.class
 com/brac/bkash/controlStatements/ContinueStatement.class
 com/brac/bkash/oopsConcept/ClassC.class
 com/brac/bkash/ObjectClass/UserAbleToLogIn.class
+com/brac/bkash/pages/LandingPage.class
+com/brac/bkash/tc/ABTesting.class
 com/brac/bkash/oopsConcept/InterfaceB.class
+com/brac/bkash/pages/AbtestPage.class
 com/brac/bkash/AppTest.class
 com/brac/bkash/ObjectClass/JavaArray.class
 com/brac/bkash/controlStatements/BreakStatement.class

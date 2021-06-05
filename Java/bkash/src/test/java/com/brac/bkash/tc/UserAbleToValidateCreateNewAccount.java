@@ -12,13 +12,13 @@ public class UserAbleToValidateCreateNewAccount extends BaseTest {
     @Test
     public void userAbleToValidateCreateNewAccount() {
 
+        driver.navigate().to(Data.FACEBOOK_URL);
         LogInSignUp lisp = new LogInSignUp(driver);
-
         if(lisp.getCreateNewAccount().isDisplayed()){
             String createNewAccountText = lisp.getCreateNewAccount().getText();
-            Assert.assertEquals(Data.Create_New_Account_Test, createNewAccountText);
+            Assert.assertEquals(Data.CREATE_NEW_ACCOUNT_TEST, createNewAccountText);
         }else {
-            System.out.println(Data.nagative_ErrorMessage);
+            System.out.println(Data.NAGATIVE_ERROR_MESSAGE);
         }
         sleepTest(2000);
     }

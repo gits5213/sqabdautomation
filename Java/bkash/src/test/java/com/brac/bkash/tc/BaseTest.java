@@ -1,7 +1,9 @@
 package com.brac.bkash.tc;
 
+import com.brac.bkash.utilities.Data;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -19,18 +21,25 @@ public class BaseTest {
     @BeforeClass
     public void beforeClass(){
         String baseDir = System.getProperty("user.dir");
-        String chromeDir = baseDir + "/browser/chromedriver";
 
+        String chromeDir = baseDir + "/browser/chromedriver";
         System.setProperty("webdriver.chrome.driver", chromeDir);
+
+        //String firefoxDir = baseDir + "/browser/geckodriver";
+        //System.setProperty("webdriver.gecko.driver", firefoxDir);
+
         driver = new ChromeDriver();
+
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
     @BeforeMethod
     public void beforeMethod()  {
-        driver.get("https://www.facebook.com/");
+        driver.get(Data.BASE_URL);
         sleepTest(2000);
+        String actualURL = driver.getCurrentUrl();
+        Assert.assertEquals(actualURL, Data.BASE_URL );
     }
 
     @AfterMethod
