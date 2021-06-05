@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 
 import java.util.concurrent.TimeUnit;
 
-public class Common {
+public class BaseTest {
     public WebDriver driver;
 
     //Kiss & Dry

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="16.334" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="16.401" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9"/>
@@ -56,6 +56,6 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="userAbleToValidateFirstNameLastNamePresent" classname="com.brac.bkash.tc.UserAbleToValidateFirstNameLastNamePresent" time="3.749"/>
-  <testcase name="userAbleToValidateCreateNewAccount" classname="com.brac.bkash.tc.UserAbleToValidateCreateNewAccount" time="2.056"/>
+  <testcase name="userAbleToValidateFirstNameLastNamePresent" classname="com.brac.bkash.tc.UserAbleToValidateFirstNameLastNamePresent" time="3.75"/>
+  <testcase name="userAbleToValidateCreateNewAccount" classname="com.brac.bkash.tc.UserAbleToValidateCreateNewAccount" time="2.06"/>
 </testsuite>

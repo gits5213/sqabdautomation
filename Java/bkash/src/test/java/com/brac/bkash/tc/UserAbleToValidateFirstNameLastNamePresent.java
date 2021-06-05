@@ -1,22 +1,25 @@
 package com.brac.bkash.tc;
 
+import com.brac.bkash.pages.ForgotPassword;
+import com.brac.bkash.pages.LogInSignUp;
 import com.brac.bkash.utilities.Data;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class UserAbleToValidateFirstNameLastNamePresent extends Common{
+public class UserAbleToValidateFirstNameLastNamePresent extends BaseTest {
 
     @Test
-    public void userAbleToValidateFirstNameLastNamePresent() throws InterruptedException {
+    public void userAbleToValidateFirstNameLastNamePresent(){
 
-        WebElement forgetPass = driver.findElement(By.cssSelector("._6ltj > a"));
-        forgetPass.click();
-        Thread.sleep(   1000);
-        WebElement phoneNumber = driver.findElement(By.cssSelector("#identify_email"));
-        //Soft assertion
-        if(phoneNumber.isEnabled()){
-            phoneNumber.sendKeys(Data.phoneNumber);
+        LogInSignUp lisu = new LogInSignUp(driver);
+        ForgotPassword fp = new ForgotPassword(driver);
+
+        lisu.getForgetPass().click();
+        sleepTest(1000);
+
+        if(fp.getPhoneNumber().isEnabled()){
+            fp.getPhoneNumber().sendKeys(Data.phoneNumber);
         }else {
             System.out.println(Data.nagativeErrorMessage);
         }
