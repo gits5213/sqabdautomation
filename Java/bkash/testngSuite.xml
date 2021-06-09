@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Regression" verbose="1">
+    <test name = "UITest">
+        <classes>
+            <class name ="com.brac.bkash.tc.UserAbleToValidateFirstNameLastNamePresent">
+                <methods>
+                    <include name="userAbleToValidateFirstNameLastNamePresent" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.tc.UserAbleToValidateCreateNewAccount">
+            <methods>
+                <include name="userAbleToValidateCreateNewAccount" />
+            </methods>
+            </class>
+            <class name ="com.brac.bkash.tc.ABTesting">
+                <methods>
+                    <include name="aBTesting" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

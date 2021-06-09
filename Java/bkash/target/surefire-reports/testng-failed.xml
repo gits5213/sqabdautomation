@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="UITest(failed)" verbose="0">
+    <classes>
+      <class name="com.brac.bkash.tc.ABTesting">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="aBTesting"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.brac.bkash.tc.ABTesting -->
+    </classes>
+  </test> <!-- UITest(failed) -->
+</suite> <!-- Failed suite [Regression] -->
