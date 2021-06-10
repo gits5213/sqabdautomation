@@ -22,7 +22,7 @@ public class BaseTest {
     public void beforeClass(){
         String baseDir = System.getProperty("user.dir");
 
-        String chromeDir = baseDir + "/browser/chromedriver";
+        String chromeDir = baseDir + "/browser/chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", chromeDir);
 
         //String firefoxDir = baseDir + "/browser/geckodriver";
