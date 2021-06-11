@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "419849b9-5016-4d6a-ad97-cb66c7975a57",
+		"name": "REQ|RES",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "LIST USER",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"tests['status code'] = responseCode.code === 200;",
+							"",
+							"var data = JSON.parse(responseBody);",
+							"",
+							"tests[\"Response has an total\"] = data.total == \"12\";",
+							"tests[\"Response has an per_page\"] = data.per_page == \"6\";",
+							"tests[\"Response has an page\"] = data.page == \"2\";",
+							"tests[\"Response has an total_pages\"] = data.total_pages == \"2\";",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{SERVICE_END_POINT}}api/users?page={{VALE}}",
+					"host": [
+						"{{SERVICE_END_POINT}}api"
+					],
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "{{VALE}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Single Users",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"tests['status code'] = responseCode.code === 200;",
+							"",
+							"var data = JSON.parse(responseBody);",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{SERVICE_END_POINT}}api/users/2",
+					"host": [
+						"{{SERVICE_END_POINT}}api"
+					],
+					"path": [
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"tests['Create user endpoint - status code'] = responseCode.code === 201;"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"morpheus\",\n    \"job\": \"leader\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
