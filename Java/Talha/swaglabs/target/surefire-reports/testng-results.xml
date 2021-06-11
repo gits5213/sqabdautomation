@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-10T20:09:31Z" name="Regression" finished-at="2021-06-10T20:10:19Z" duration-ms="47489">
+    <groups>
+    </groups>
+    <test started-at="2021-06-10T20:09:31Z" name="UITest" finished-at="2021-06-10T20:10:19Z" duration-ms="47489">
+      <class name="com.saucedemo.swaglabs.testCases.UserAbleToClickOnCreateNewAccount">
+        <test-method signature="userAbleToClickOnCreateNewAccount()[pri:0, instance:com.saucedemo.swaglabs.testCases.UserAbleToClickOnCreateNewAccount@5c18298f]" started-at="2021-06-10T20:09:32Z" name="userAbleToClickOnCreateNewAccount" finished-at="2021-06-10T20:09:43Z" duration-ms="11445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAbleToClickOnCreateNewAccount -->
+      </class> <!-- com.saucedemo.swaglabs.testCases.UserAbleToClickOnCreateNewAccount -->
+      <class name="com.saucedemo.swaglabs.testCases.UserAbleToClickOnForgetPassword">
+        <test-method signature="userAbleToClickOnForgetPassword()[pri:0, instance:com.saucedemo.swaglabs.testCases.UserAbleToClickOnForgetPassword@31f924f5]" started-at="2021-06-10T20:09:43Z" name="userAbleToClickOnForgetPassword" finished-at="2021-06-10T20:10:01Z" duration-ms="17680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAbleToClickOnForgetPassword -->
+      </class> <!-- com.saucedemo.swaglabs.testCases.UserAbleToClickOnForgetPassword -->
+      <class name="com.saucedemo.swaglabs.testCases.UserAbleToClickOnLoginSwagLabs">
+        <test-method signature="userAbleToClickOnLoginSwagLabs()[pri:0, instance:com.saucedemo.swaglabs.testCases.UserAbleToClickOnLoginSwagLabs@5579bb86]" started-at="2021-06-10T20:10:01Z" name="userAbleToClickOnLoginSwagLabs" finished-at="2021-06-10T20:10:19Z" duration-ms="18334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAbleToClickOnLoginSwagLabs -->
+      </class> <!-- com.saucedemo.swaglabs.testCases.UserAbleToClickOnLoginSwagLabs -->
+    </test> <!-- UITest -->
+  </suite> <!-- Regression -->
+</testng-results>

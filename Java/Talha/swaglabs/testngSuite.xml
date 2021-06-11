@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Regression" verbose="1">
+    <test name = "UITest">
+        <classes>
+
+            <class name ="com.saucedemo.swaglabs.testCases.UserAbleToClickOnCreateNewAccount">
+                <methods>
+                    <exclude name="userAbleToClickOnCreateNewAccount" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.UserAbleToClickOnForgetPassword">
+                <methods>
+                    <exclude name="userAbleToClickOnForgetPassword" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.UserAbleToClickOnLoginSwagLabs">
+                <methods>
+                    <exclude name="userAbleToClickOnLoginSwagLabs" />
+                </methods>
+            </class>
+
+
+            <class name ="com.saucedemo.swaglabs.testCases.UserAbleToValidateCreateNewAccount">
+                <methods>
+                    <exclude name="userAbleToValidateCreateNewAccount" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.UserAbleToClickAndValidateABTestingAndCorrespondingPages">
+                <methods>
+                    <include name="userAbleToClickAndValidateABTestingAndCorrespondingPages" />
+                </methods>
+            </class>
+
+            <class name ="com.saucedemo.swaglabs.testCases.UserAbleToClickAndValidateAddRemoveElementsAndCorrespondingPages">
+                <methods>
+                    <include name="userAbleToClickAndValidateAddRemoveElementsAndCorrespondingPages" />
+                </methods>
+            </class>
+
+
+
+
+        </classes>
+    </test>
+</suite>
