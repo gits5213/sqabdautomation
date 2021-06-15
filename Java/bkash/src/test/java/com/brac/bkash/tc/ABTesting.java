@@ -24,8 +24,10 @@ public class ABTesting extends BaseTest{
         Assert.assertEquals(headerText, Data.AB_TEST_VARIATION_1);
         sleepTest(1000);
 
+
+
         driver.navigate().back();
-        sleepTest(2000);
+        sleepTest(1000);
     }
 
 }

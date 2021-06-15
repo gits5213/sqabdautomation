@@ -1,77 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="2" total="8" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-05T02:17:24Z" name="Regression" finished-at="2021-06-05T02:17:52Z" duration-ms="28057">
+  <suite started-at="2021-06-08T18:30:07Z" name="Regression" finished-at="2021-06-08T18:31:55Z" duration-ms="108278">
     <groups>
     </groups>
-    <test started-at="2021-06-05T02:17:24Z" name="UITest" finished-at="2021-06-05T02:17:52Z" duration-ms="28057">
-      <class name="com.brac.bkash.tc.ABTesting">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.brac.bkash.tc.ABTesting@75881071]" started-at="2021-06-05T02:17:40Z" name="beforeClass" finished-at="2021-06-05T02:17:42Z" duration-ms="1481" status="PASS">
+    <test started-at="2021-06-08T18:30:07Z" name="UITest" finished-at="2021-06-08T18:31:55Z" duration-ms="108278">
+      <class name="com.brac.bkash.tc.BasicAuthTesting">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.brac.bkash.tc.BasicAuthTesting@5427c60c]" started-at="2021-06-08T18:30:42Z" name="beforeClass" finished-at="2021-06-08T18:30:43Z" duration-ms="768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.brac.bkash.tc.ABTesting@75881071]" started-at="2021-06-05T02:17:42Z" name="beforeMethod" finished-at="2021-06-05T02:17:44Z" duration-ms="2332" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.brac.bkash.tc.BasicAuthTesting@5427c60c]" started-at="2021-06-08T18:30:43Z" name="beforeMethod" finished-at="2021-06-08T18:30:50Z" duration-ms="6777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="aBTesting()[pri:0, instance:com.brac.bkash.tc.ABTesting@75881071]" started-at="2021-06-05T02:17:44Z" name="aBTesting" finished-at="2021-06-05T02:17:52Z" duration-ms="8294" status="PASS">
+        <test-method signature="basicAuthTesting()[pri:0, instance:com.brac.bkash.tc.BasicAuthTesting@5427c60c]" started-at="2021-06-08T18:30:50Z" name="basicAuthTesting" finished-at="2021-06-08T18:30:55Z" duration-ms="5165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicAuthTesting -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.brac.bkash.tc.BasicAuthTesting@5427c60c]" started-at="2021-06-08T18:30:55Z" name="afterTest" finished-at="2021-06-08T18:30:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.brac.bkash.tc.BasicAuthTesting@5427c60c]" started-at="2021-06-08T18:30:55Z" name="afterClass" finished-at="2021-06-08T18:30:55Z" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.brac.bkash.tc.BasicAuthTesting -->
+      <class name="com.brac.bkash.tc.AddRemoveElements">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.brac.bkash.tc.AddRemoveElements@80169cf]" started-at="2021-06-08T18:30:26Z" name="beforeClass" finished-at="2021-06-08T18:30:27Z" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.brac.bkash.tc.AddRemoveElements@80169cf]" started-at="2021-06-08T18:30:27Z" name="beforeMethod" finished-at="2021-06-08T18:30:34Z" duration-ms="6838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addRemoveElements()[pri:0, instance:com.brac.bkash.tc.AddRemoveElements@80169cf]" started-at="2021-06-08T18:30:34Z" name="addRemoveElements" finished-at="2021-06-08T18:30:42Z" duration-ms="8591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRemoveElements -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.brac.bkash.tc.AddRemoveElements@80169cf]" started-at="2021-06-08T18:30:42Z" name="afterTest" finished-at="2021-06-08T18:30:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.brac.bkash.tc.AddRemoveElements@80169cf]" started-at="2021-06-08T18:30:42Z" name="afterClass" finished-at="2021-06-08T18:30:42Z" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.brac.bkash.tc.AddRemoveElements -->
+      <class name="com.brac.bkash.tc.ABTesting">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.brac.bkash.tc.ABTesting@73d4cc9e]" started-at="2021-06-08T18:30:07Z" name="beforeClass" finished-at="2021-06-08T18:30:08Z" duration-ms="1133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.brac.bkash.tc.ABTesting@73d4cc9e]" started-at="2021-06-08T18:30:08Z" name="beforeMethod" finished-at="2021-06-08T18:30:18Z" duration-ms="10550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="aBTesting()[pri:0, instance:com.brac.bkash.tc.ABTesting@73d4cc9e]" started-at="2021-06-08T18:30:18Z" name="aBTesting" finished-at="2021-06-08T18:30:26Z" duration-ms="7505" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aBTesting -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.brac.bkash.tc.ABTesting@75881071]" started-at="2021-06-05T02:17:52Z" name="afterClass" finished-at="2021-06-05T02:17:52Z" duration-ms="92" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.brac.bkash.tc.ABTesting@75881071]" started-at="2021-06-05T02:17:52Z" name="afterTest" finished-at="2021-06-05T02:17:52Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.brac.bkash.tc.ABTesting@73d4cc9e]" started-at="2021-06-08T18:30:26Z" name="afterTest" finished-at="2021-06-08T18:30:26Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.brac.bkash.tc.ABTesting@73d4cc9e]" started-at="2021-06-08T18:30:26Z" name="afterClass" finished-at="2021-06-08T18:30:26Z" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- com.brac.bkash.tc.ABTesting -->
-      <class name="com.brac.bkash.tc.UserAbleToValidateCreateNewAccount">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.brac.bkash.tc.UserAbleToValidateCreateNewAccount@1fc2b765]" started-at="2021-06-05T02:17:34Z" name="beforeClass" finished-at="2021-06-05T02:17:35Z" duration-ms="1588" status="PASS">
+      <class name="com.brac.bkash.tc.ContextMenuTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.brac.bkash.tc.ContextMenuTest@57f23557]" started-at="2021-06-08T18:31:37Z" name="beforeClass" finished-at="2021-06-08T18:31:38Z" duration-ms="770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.brac.bkash.tc.UserAbleToValidateCreateNewAccount@1fc2b765]" started-at="2021-06-05T02:17:35Z" name="beforeMethod" finished-at="2021-06-05T02:17:37Z" duration-ms="2291" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.brac.bkash.tc.ContextMenuTest@57f23557]" started-at="2021-06-08T18:31:38Z" name="beforeMethod" finished-at="2021-06-08T18:31:47Z" duration-ms="9044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="userAbleToValidateCreateNewAccount()[pri:0, instance:com.brac.bkash.tc.UserAbleToValidateCreateNewAccount@1fc2b765]" started-at="2021-06-05T02:17:37Z" name="userAbleToValidateCreateNewAccount" finished-at="2021-06-05T02:17:40Z" duration-ms="2791" status="PASS">
+        <test-method signature="contextMenuTest()[pri:0, instance:com.brac.bkash.tc.ContextMenuTest@57f23557]" started-at="2021-06-08T18:31:47Z" name="contextMenuTest" finished-at="2021-06-08T18:31:55Z" duration-ms="7588" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userAbleToValidateCreateNewAccount -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.brac.bkash.tc.UserAbleToValidateCreateNewAccount@1fc2b765]" started-at="2021-06-05T02:17:40Z" name="afterTest" finished-at="2021-06-05T02:17:40Z" duration-ms="0" status="PASS">
+        </test-method> <!-- contextMenuTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.brac.bkash.tc.ContextMenuTest@57f23557]" started-at="2021-06-08T18:31:55Z" name="afterTest" finished-at="2021-06-08T18:31:55Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.brac.bkash.tc.UserAbleToValidateCreateNewAccount@1fc2b765]" started-at="2021-06-05T02:17:40Z" name="afterClass" finished-at="2021-06-05T02:17:40Z" duration-ms="106" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.brac.bkash.tc.ContextMenuTest@57f23557]" started-at="2021-06-08T18:31:55Z" name="afterClass" finished-at="2021-06-08T18:31:55Z" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.brac.bkash.tc.UserAbleToValidateCreateNewAccount -->
-      <class name="com.brac.bkash.tc.UserAbleToValidateFirstNameLastNamePresent">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.brac.bkash.tc.UserAbleToValidateFirstNameLastNamePresent@c81cdd1]" started-at="2021-06-05T02:17:24Z" name="beforeClass" finished-at="2021-06-05T02:17:27Z" duration-ms="2264" status="PASS">
+      </class> <!-- com.brac.bkash.tc.ContextMenuTest -->
+      <class name="com.brac.bkash.tc.BrokenImages">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.brac.bkash.tc.BrokenImages@15bfd87]" started-at="2021-06-08T18:30:55Z" name="beforeClass" finished-at="2021-06-08T18:30:56Z" duration-ms="761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.brac.bkash.tc.UserAbleToValidateFirstNameLastNamePresent@c81cdd1]" started-at="2021-06-05T02:17:27Z" name="beforeMethod" finished-at="2021-06-05T02:17:29Z" duration-ms="2289" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.brac.bkash.tc.BrokenImages@15bfd87]" started-at="2021-06-08T18:30:56Z" name="beforeMethod" finished-at="2021-06-08T18:31:02Z" duration-ms="6136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="userAbleToValidateFirstNameLastNamePresent()[pri:0, instance:com.brac.bkash.tc.UserAbleToValidateFirstNameLastNamePresent@c81cdd1]" started-at="2021-06-05T02:17:29Z" name="userAbleToValidateFirstNameLastNamePresent" finished-at="2021-06-05T02:17:33Z" duration-ms="4391" status="PASS">
+        <test-method signature="brokenImages()[pri:0, instance:com.brac.bkash.tc.BrokenImages@15bfd87]" started-at="2021-06-08T18:31:02Z" name="brokenImages" finished-at="2021-06-08T18:31:10Z" duration-ms="7972" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userAbleToValidateFirstNameLastNamePresent -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.brac.bkash.tc.UserAbleToValidateFirstNameLastNamePresent@c81cdd1]" started-at="2021-06-05T02:17:33Z" name="afterClass" finished-at="2021-06-05T02:17:34Z" duration-ms="125" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.brac.bkash.tc.UserAbleToValidateFirstNameLastNamePresent@c81cdd1]" started-at="2021-06-05T02:17:33Z" name="afterTest" finished-at="2021-06-05T02:17:33Z" duration-ms="0" status="PASS">
+        </test-method> <!-- brokenImages -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.brac.bkash.tc.BrokenImages@15bfd87]" started-at="2021-06-08T18:31:10Z" name="afterTest" finished-at="2021-06-08T18:31:10Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.brac.bkash.tc.UserAbleToValidateFirstNameLastNamePresent -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.brac.bkash.tc.BrokenImages@15bfd87]" started-at="2021-06-08T18:31:10Z" name="afterClass" finished-at="2021-06-08T18:31:10Z" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.brac.bkash.tc.BrokenImages -->
+      <class name="com.brac.bkash.tc.CheckboxTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.brac.bkash.tc.CheckboxTest@543e710e]" started-at="2021-06-08T18:31:10Z" name="beforeClass" finished-at="2021-06-08T18:31:11Z" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.brac.bkash.tc.CheckboxTest@543e710e]" started-at="2021-06-08T18:31:11Z" name="beforeMethod" finished-at="2021-06-08T18:31:27Z" duration-ms="15664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="checkboxTest()[pri:0, instance:com.brac.bkash.tc.CheckboxTest@543e710e]" started-at="2021-06-08T18:31:27Z" name="checkboxTest" finished-at="2021-06-08T18:31:37Z" duration-ms="10663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.brac.bkash.tc.CheckboxTest@543e710e]" started-at="2021-06-08T18:31:37Z" name="afterTest" finished-at="2021-06-08T18:31:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.brac.bkash.tc.CheckboxTest@543e710e]" started-at="2021-06-08T18:31:37Z" name="afterClass" finished-at="2021-06-08T18:31:37Z" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.brac.bkash.tc.CheckboxTest -->
     </test> <!-- UITest -->
   </suite> <!-- Regression -->
 </testng-results>
