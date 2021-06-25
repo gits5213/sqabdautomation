@@ -1,12 +1,13 @@
 package com.brac.bkash.tc;
 
+import com.brac.bkash.liveProject.testCases.BaseTest;
 import com.brac.bkash.pages.AbtestPage;
 import com.brac.bkash.pages.LandingPage;
 import com.brac.bkash.utilities.Data;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ABTesting extends BaseTest{
+public class ABTesting extends BaseTest {
 
     @Test
     public void aBTesting(){
@@ -24,8 +25,10 @@ public class ABTesting extends BaseTest{
         Assert.assertEquals(headerText, Data.AB_TEST_VARIATION_1);
         sleepTest(1000);
 
+
+
         driver.navigate().back();
-        sleepTest(2000);
+        sleepTest(1000);
     }
 
 }

@@ -9,13 +9,108 @@
                 </methods>
             </class>
             <class name ="com.brac.bkash.tc.UserAbleToValidateCreateNewAccount">
-            <methods>
-                <include name="userAbleToValidateCreateNewAccount" />
-            </methods>
-            </class>
-            <class name ="com.brac.bkash.tc.ABTesting">
                 <methods>
-                    <include name="aBTesting" />
+                    <exclude name="userAbleToValidateCreateNewAccount" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.testCases.ABTesting">
+                <methods>
+                    <exclude name="aBTesting" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.AddRemoveElements">
+                <methods>
+                    <include name="addRemoveElements" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.BasicAuth">
+                <methods>
+                    <include name="basicAuth" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.Checkboxes">
+                <methods>
+                    <include name="checkboxes" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.ContextMenu">
+                <methods>
+                    <include name="contextMenu" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.DragAndDrop">
+                <methods>
+                    <include name="dragAndDrop" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.Dropdown">
+                <methods>
+                    <include name="dropdown" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.DynamicContent">
+                <methods>
+                    <include name="dynamicContent" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.FileDownload">
+                <methods>
+                    <include name="fileDownload" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.ForgotPassword">
+                <methods>
+                    <include name="forgotPassword" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.FormAuthentication">
+                <methods>
+                    <include name="formAuthentication" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.Frames">
+                <methods>
+                    <include name="frames" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.HorizontalSlider">
+                <methods>
+                    <include name="horizontalSlider" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.Hovers">
+                <methods>
+                    <include name="hovers" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.InfiniteScroll">
+                <methods>
+                    <include name="infiniteScroll" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.Inputs">
+                <methods>
+                    <include name="inputs" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.JavaScriptAlerts">
+                <methods>
+                    <include name="javaScriptAlerts" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.MultipleWindows">
+                <methods>
+                    <include name="multipleWindows" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.NestedFrames">
+                <methods>
+                    <include name="nestedFrames" />
+                </methods>
+            </class>
+            <class name ="com.brac.bkash.liveProject.rakibuzzaman.NotificationMessages">
+                <methods>
+                    <include name="notificationMessages" />
                 </methods>
             </class>
         </classes>
