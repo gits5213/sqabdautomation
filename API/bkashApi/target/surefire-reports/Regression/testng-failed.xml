@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" guice-stage="DEVELOPMENT" verbose="0">
+  <test name="UITest">
+    <classes>
+      <class name="com.brac.bkashApi.tc.ListUserEndPointValidation"/>
+    </classes>
+  </test> <!-- UITest -->
+</suite> <!-- Failed suite [Regression] -->
