@@ -6,7 +6,8 @@ import org.openqa.selenium.support.FindBy;
 
 public class BasicAuthPage extends BasePage{
     public BasicAuthPage(WebDriver driver) {
-        super(driver);}
+        super(driver);
+    }
 
     @FindBy(xpath = "//div[@id='content']//p")
     public WebElement getSuccessText;

@@ -33,7 +33,7 @@ public class FileUploadTest extends BaseTest{
         act.moveToElement(upload).perform();
         sleepTest(1000);
 
-        upload.sendKeys("C:\\Users\\Admin\\Desktop\\TextFile.txt");
+        upload.sendKeys("C:\\Users\\User\\Desktop\\pexels-photo.jpeg");
         sleepTest(2000);
 
         driver.navigate().back();

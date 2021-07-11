@@ -13,13 +13,15 @@ public class CheckboxPage extends BasePage{
     public WebElement checkBox1;
 
     public WebElement getCheckBox1() {
-        return checkBox1; }
+        return checkBox1;
+    }
 
     @FindBy(css = "#checkboxes [type='checkbox']:nth-child(3)")
     public WebElement checkBox2;
 
     public WebElement getCheckBox2() {
-        return checkBox2; }
+        return checkBox2;
+    }
 
 
     }
