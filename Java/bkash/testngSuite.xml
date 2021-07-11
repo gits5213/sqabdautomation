@@ -8,69 +8,69 @@
                 <exclude name="userAbleToValidateCreateNewAccount" />
             </methods>
             </class>
-            <class name ="com.brac.bkash.tc.ABTesting">
+            <class name ="com.brac.bkash.stc.ABTesting">
                 <methods>
                     <include name="aBTesting" />
                 </methods>
             </class>
             <class name ="com.brac.bkash.tc.AddRemoveElements">
                 <methods>
-                    <include name="addRemoveElements" />
+                    <exclude name="addRemoveElements" />
                 </methods>
             </class>
             <class name ="com.brac.bkash.tc.BasicAuthTesting">
                 <methods>
-                    <include name="basicAuthTesting" />
+                    <exclude name="basicAuthTesting" />
                 </methods>
             </class>
             <class name ="com.brac.bkash.tc.BrokenImages">
                 <methods>
-                    <include name="brokenImages" />
+                    <exclude name="brokenImages" />
                 </methods>
             </class>
             <class name ="com.brac.bkash.tc.CheckboxTest">
                 <methods>
-                    <include name="checkboxTest" />
+                    <exclude name="checkboxTest" />
                 </methods>
             </class>
             <class name ="com.brac.bkash.tc.ContextMenuTest">
                 <methods>
-                    <include name="contextMenuTest" />
+                    <exclude name="contextMenuTest" />
                 </methods>
             </class>
             <class name ="com.brac.bkash.tc.DragDropTest">
             <methods>
-                <include name="dragDropTest" />
+                <exclude name="dragDropTest" />
             </methods>
         </class>
             <class name ="com.brac.bkash.tc.DropDownTest">
             <methods>
-                <include name="dropDownTest" />
+                <exclude name="dropDownTest" />
             </methods>
         </class>
             <class name ="com.brac.bkash.tc.DynamicContentTest">
                 <methods>
-                    <include name="dynamicContentTest" />
+                    <exclude name="dynamicContentTest" />
                 </methods>
             </class>
             <class name ="com.brac.bkash.tc.FileDownloadTest">
                 <methods>
-                    <include name="fileDownloadTest" />
+                    <exclude name="fileDownloadTest" />
                 </methods>
             </class>
             <class name ="com.brac.bkash.tc.FileUploadTest">
                 <methods>
-                    <include name="fileUploadTest" />
+                    <exclude name="fileUploadTest" />
                 </methods>
             </class>
             <class name ="com.brac.bkash.tc.ForgetPasswordTest">
                 <methods>
-                    <include name="forgetPasswordTest" />
+                    <exclude name="forgetPasswordTest" />
                 </methods>
             </class>
             <class name ="com.brac.bkash.tc.FormAuthTest">
                 <methods>
-                    <include name="formAuthTest" />
+                    <exclude name="formAuthTest" />
                 </methods>
             </class>
         </classes>

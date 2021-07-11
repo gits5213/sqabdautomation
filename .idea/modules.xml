@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java/mahbub/Basic Java Learning/aarong/aarong.iml" filepath="$PROJECT_DIR$/Java/mahbub/Basic Java Learning/aarong/aarong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/bkash/bkash.iml" filepath="$PROJECT_DIR$/Java/bkash/bkash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/API/bkashApi/bkashApi.iml" filepath="$PROJECT_DIR$/API/bkashApi/bkashApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/amit/nagad/nagad.iml" filepath="$PROJECT_DIR$/Java/amit/nagad/nagad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Talha/profile/profile.iml" filepath="$PROJECT_DIR$/Java/Talha/profile/profile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sqabdautomation.iml" filepath="$PROJECT_DIR$/.idea/sqabdautomation.iml" />
+    </modules>
+  </component>
+</project>

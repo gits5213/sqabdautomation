@@ -46,7 +46,7 @@ public class DragDropTest extends BaseTest{
                 .build()
                 .perform();
 
-
+        sleepTest(1000);
 
 
         driver.navigate().back();
