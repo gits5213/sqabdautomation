@@ -20,7 +20,6 @@ public class CheckboxTest extends BaseTest{
         CheckboxPage cb = new CheckboxPage(driver);
         String headerText = cb.getCheckBox1().getText();
         Assert.assertEquals(headerText, Data.CHECKBOX_1);
-        System.out.println(cb.getCheckBox2().isSelected());
         sleepTest(1000);
         cb.getCheckBox2().click();
         sleepTest(1000);
@@ -32,8 +31,6 @@ public class CheckboxTest extends BaseTest{
         cb.getCheckBox1().click();
         cb.getCheckBox1().click();
         sleepTest(1000);
-        System.out.println(cb.getCheckBox1().isSelected());
-        sleepTest(1000);
         cb.getCheckBox1().click();
         sleepTest(1000);
 
@@ -43,8 +40,6 @@ public class CheckboxTest extends BaseTest{
         Assert.assertEquals(chk2Text, Data.CHECKBOX_2);
         cb.getCheckBox2().click();
         cb.getCheckBox2().click();
-        sleepTest(1000);
-        System.out.println(cb.getCheckBox2().isSelected());
         sleepTest(1000);
         cb.getCheckBox2().click();
         sleepTest(1000);

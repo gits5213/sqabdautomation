@@ -26,9 +26,6 @@ public class JavaScriptTesting extends BaseTest{
         Assert.assertEquals(headerText, Data.JAVA_SCRIPT_HEADER);
         sleepTest(1000);
 
-//        WebElement result = driver.findElement(By.cssSelector("#result"));
-
-//        driver.findElement(By.cssSelector("[onclick='jsAlert\\(\\)']")).click();
         jstp.getJsAlertText().click();
         Alert alert = driver.switchTo().alert();
         System.out.println(alert.getText());
@@ -36,14 +33,12 @@ public class JavaScriptTesting extends BaseTest{
         sleepTest(2000);
         System.out.println(jstp.getResultText().getText());
 
-//        driver.findElement(By.cssSelector("[onclick='jsConfirm\\(\\)']")).click();
         jstp.getJsConfirmText().click();
         System.out.println(alert.getText());
         alert.accept();
         sleepTest(2000);
         System.out.println(jstp.getResultText().getText());
 
-//        driver.findElement(By.cssSelector("[onclick='jsPrompt\\(\\)']")).click();
         jstp.getJsPromptText().click();
         System.out.println(alert.getText());
         alert.sendKeys(Data.NAME);
@@ -52,9 +47,6 @@ public class JavaScriptTesting extends BaseTest{
         sleepTest(2000);
         System.out.println(jstp.getResultText().getText());
 
-
-
-        //Navigate Back
         driver.navigate().back();
         sleepTest(1000);
 

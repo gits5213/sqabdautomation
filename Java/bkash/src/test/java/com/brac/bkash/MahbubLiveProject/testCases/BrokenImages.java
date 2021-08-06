@@ -32,7 +32,7 @@ public class BrokenImages extends BaseTest{
             URL url = new URL(imageSrc);
             URLConnection urlConnection = url.openConnection();
             HttpURLConnection httpURLConnection = (HttpURLConnection) urlConnection;
-            httpURLConnection.setConnectTimeout(5000);
+            httpURLConnection.setConnectTimeout(7000);
             httpURLConnection.connect();
 
         if (httpURLConnection.getResponseCode() == 200)

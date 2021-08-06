@@ -25,8 +25,6 @@ public class MouseHoversTest extends BaseTest{
         Assert.assertEquals(headerText, Data.HOVERS_HEADER);
         sleepTest(1000);
 
-
-
         Actions action = new Actions(driver);
 
         action.moveToElement(mh.getProfile1()).perform();
@@ -35,23 +33,17 @@ public class MouseHoversTest extends BaseTest{
         sleepTest(500);
         driver.navigate().back();
 
-
-
         action.moveToElement(mh.getProfile2()).perform();
         sleepTest(1000);
         mh.getViewProfile2().click();
         sleepTest(500);
         driver.navigate().back();
 
-
-
         action.moveToElement(mh.getProfile3()).perform();
         sleepTest(1000);
         mh.getViewProfile3().click();
         sleepTest(500);
         driver.navigate().back();
-
-
 
         driver.navigate().back();
         sleepTest(1000);

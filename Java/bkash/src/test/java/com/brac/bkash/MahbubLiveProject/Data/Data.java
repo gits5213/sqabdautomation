@@ -92,4 +92,23 @@ public class Data {
     public static final String NOTIFICATION_MESSAGE_URL = "notification_message_rendered";
     public static final String NOTIFICATION_MESSAGE_HEADER = "Notification Message";
 
+    //Redirect Link
+    public static final String REDIRECT_LINK_URL = "redirector";
+    public static final String REDIRECT_LINK_HEADER = "Redirection";
+    public static final String VALID_STATUS = "http://the-internet.herokuapp.com/status_codes/200";
+    public static final String PERMANENT_REDIRECT_STATUS = "http://the-internet.herokuapp.com/status_codes/301";
+    public static final String NOT_FOUND_STATUS = "http://the-internet.herokuapp.com/status_codes/404";
+    public static final String SERVER_ERROR_STATUS = "http://the-internet.herokuapp.com/status_codes/500";
+
+    //Disappearing Elements
+    public static final String DISAPPEARING_ELEMENTS_URL = "disappearing_elements";
+    public static final String DISAPPEARING_ELEMENTS_HEADER = "Disappearing Elements";
+    public static final String DISAPPEARING_ELEMENTS_PARA_TEXT = "This example demonstrates when elements on a page change by disappearing/reappearing on each page load.";
+
+    //Dynamic Controls
+    public static final String DYNAMIC_CONTROLS_URL = "dynamic_controls";
+    public static final String DYNAMIC_CONTROLS_HEADER = "Dynamic Controls";
+    public static final String DYNAMIC_CONTROLS_PARATEXT = "This example demonstrates when elements (e.g., checkbox, input field, etc.) are changed asynchronously.";
+    public static final String DYNAMIC_CONTROLS_TEXT_VALIDATION = "It's gone!";
+
 }

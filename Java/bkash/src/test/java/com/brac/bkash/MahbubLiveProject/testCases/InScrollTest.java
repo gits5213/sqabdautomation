@@ -40,6 +40,5 @@ public class InScrollTest extends BaseTest{
         driver.navigate().back();
         sleepTest(1000);
 
-
     }
 }

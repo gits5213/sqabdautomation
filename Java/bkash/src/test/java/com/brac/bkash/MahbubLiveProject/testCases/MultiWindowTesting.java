@@ -56,7 +56,6 @@ public class MultiWindowTesting extends BaseTest {
         System.out.println("Parent window title is" + driver.getTitle());
         sleepTest(1000);
 
-
         driver.navigate().back();
         sleepTest(1000);
     }

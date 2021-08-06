@@ -161,10 +161,29 @@ public WebElement sliderTestLink;
         return notificationMessageTestLink;}
 
 //        21. Redirect Link
+
+    @FindBy(css = "li:nth-of-type(36) > a")
+    public WebElement redirectLink ;
+    public WebElement getRedirectLink() {
+        return redirectLink;}
+
 //        22. Secure File Download
 
 
 
+    //    23. Disappearing elements
+
+    @FindBy(css = "li:nth-of-type(9) > a")
+    public WebElement disappearingElementLink ;
+    public WebElement getDisappearingElementLink() {
+        return disappearingElementLink;}
+
+    //Dynamic Controls
+
+    @FindBy(css = "li:nth-of-type(13) > a")
+    public WebElement dynamicControlLink ;
+    public WebElement getDynamicControlLink() {
+        return dynamicControlLink;}
 
 
 

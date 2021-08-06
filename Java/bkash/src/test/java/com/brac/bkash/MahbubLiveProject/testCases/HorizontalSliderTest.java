@@ -32,7 +32,6 @@ public class HorizontalSliderTest extends BaseTest{
         act.dragAndDropBy(hsp.getHorizontalSlider(), -3,0).perform();
         sleepTest(2000);
 
-
         driver.navigate().back();
         sleepTest(1000);
 

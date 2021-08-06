@@ -30,8 +30,6 @@ public class InputTest extends BaseTest{
         action.sendKeys("123e++").perform();
         sleepTest(2000);
 
-
-
         driver.navigate().back();
         sleepTest(1000);
     }

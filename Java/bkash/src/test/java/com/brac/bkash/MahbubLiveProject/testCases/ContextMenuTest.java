@@ -25,15 +25,11 @@ public class ContextMenuTest extends BaseTest{
         Assert.assertEquals(headerText, Data.CONTEXT_MENU_HEADER);
         sleepTest(1000);
 
-        ///////////////////////////
         Actions act = new Actions(driver);
         act.contextClick(cmp.getContextZone()).perform();
-        System.out.println(driver.switchTo().alert().getText());
         driver.switchTo().alert().accept();
         sleepTest(1000);
 
-
-    //Back
         driver.navigate().back();
         sleepTest(1000);
 

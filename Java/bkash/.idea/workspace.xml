@@ -8,43 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50dfb62c-55d6-4064-92ba-9c2429036a5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../API-Manaul_Automation/.idea/API-Manaul_Automation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/API.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_10_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__io_rest_assured_json_path_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__io_rest_assured_rest_assured_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__io_rest_assured_rest_assured_common_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__io_rest_assured_xml_path_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../API/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_testng_testng_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../API/bkashApi/bkashApi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../API/bkashApi/bkashApi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../API/bkashApi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../API/bkashApi/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../API" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mahbub/Basic Java Learning/aarong" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -101,8 +71,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Desktop\Github\sqabdautomation\Java\bkash\Files" />
       <recent name="C:\Users\Admin\Desktop\Github\sqabdautomation\Java\bkash\browser" />
+      <recent name="C:\Users\Admin\Desktop\Github\sqabdautomation\Java\bkash\Files" />
       <recent name="$PROJECT_DIR$/browser" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -121,8 +91,8 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.NotificationMessageTest.notificationMessageTest">
-    <configuration name="InputTest.inputTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ABTesting.aBTesting">
+    <configuration name="ABTesting.aBTesting" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="bkash" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +101,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.brac.bkash.MahbubLiveProject.testCases" />
-      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.MahbubLiveProject.testCases.InputTest" />
-      <option name="METHOD_NAME" value="inputTest" />
+      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.MahbubLiveProject.testCases.ABTesting" />
+      <option name="METHOD_NAME" value="aBTesting" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,17 +110,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaScriptTesting.javaScriptTesting" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BrokenLinkCheck.brokenLinkCheck" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="bkash" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.brac.bkash.MahbubLiveProject.testCases.*" />
+          <option name="PATTERN" value="com.brac.bkash.tc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.brac.bkash.MahbubLiveProject.testCases" />
-      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.MahbubLiveProject.testCases.JavaScriptTesting" />
-      <option name="METHOD_NAME" value="javaScriptTesting" />
+      <option name="PACKAGE_NAME" value="com.brac.bkash.tc" />
+      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.tc.BrokenLinkCheck" />
+      <option name="METHOD_NAME" value="brokenLinkCheck" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MouseHoversTest.mouseHoversTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContextMenuTest.contextMenuTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="bkash" />
       <extension name="coverage">
         <pattern>
@@ -167,8 +137,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.brac.bkash.MahbubLiveProject.testCases" />
-      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.MahbubLiveProject.testCases.MouseHoversTest" />
-      <option name="METHOD_NAME" value="mouseHoversTest" />
+      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.MahbubLiveProject.testCases.ContextMenuTest" />
+      <option name="METHOD_NAME" value="contextMenuTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -176,7 +146,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiWindowTesting.multiWindowTesting" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DissapearingElements.dissapearingElements" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="bkash" />
       <extension name="coverage">
         <pattern>
@@ -185,8 +155,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.brac.bkash.MahbubLiveProject.testCases" />
-      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.MahbubLiveProject.testCases.MultiWindowTesting" />
-      <option name="METHOD_NAME" value="multiWindowTesting" />
+      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.MahbubLiveProject.testCases.DissapearingElements" />
+      <option name="METHOD_NAME" value="dissapearingElements" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -194,7 +164,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotificationMessageTest.notificationMessageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicControl.dynamicControl" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="bkash" />
       <extension name="coverage">
         <pattern>
@@ -203,8 +173,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.brac.bkash.MahbubLiveProject.testCases" />
-      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.MahbubLiveProject.testCases.NotificationMessageTest" />
-      <option name="METHOD_NAME" value="notificationMessageTest" />
+      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.MahbubLiveProject.testCases.DynamicControl" />
+      <option name="METHOD_NAME" value="dynamicControl" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -214,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.NotificationMessageTest.notificationMessageTest" />
-        <item itemvalue="TestNG.MultiWindowTesting.multiWindowTesting" />
-        <item itemvalue="TestNG.MouseHoversTest.mouseHoversTest" />
-        <item itemvalue="TestNG.JavaScriptTesting.javaScriptTesting" />
-        <item itemvalue="TestNG.InputTest.inputTest" />
+        <item itemvalue="TestNG.ABTesting.aBTesting" />
+        <item itemvalue="TestNG.DynamicControl.dynamicControl" />
+        <item itemvalue="TestNG.BrokenLinkCheck.brokenLinkCheck" />
+        <item itemvalue="TestNG.ContextMenuTest.contextMenuTest" />
+        <item itemvalue="TestNG.DissapearingElements.dissapearingElements" />
       </list>
     </recent_temporary>
   </component>

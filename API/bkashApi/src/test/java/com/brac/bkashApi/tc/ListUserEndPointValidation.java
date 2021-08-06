@@ -17,6 +17,8 @@ public class ListUserEndPointValidation {
     @Test
     public void listUserEndPointValidation(){
 
+        System.out.println(GETListOfUsersEndPoint);
+
         Response GetListResponse =
                         given().
                                 when().

@@ -31,8 +31,6 @@ public class NotificationMessageTest extends BaseTest {
         System.out.println("Message is" +  text);
         sleepTest(1000);
 
-
-
         driver.navigate().back();
         sleepTest(1000);
     }
