@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bkashApi" target="8" />
+      <module name="bkashApi" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>
