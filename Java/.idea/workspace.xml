@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="088b92e2-1f4b-4a9b-b7a7-b047bfcb44c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../API/.idea/libraries/Maven__org_testng_testng_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../API/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/bkashApi/bkashApi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../API/bkashApi/bkashApi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Talha/profile/profile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Talha/profile/profile.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amit/nagad/nagad.iml" beforeDir="false" afterPath="$PROJECT_DIR$/amit/nagad/nagad.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bkash/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkash/bkash.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bkash/bkash.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkash/browser/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bkash/browser/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkash/some-file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/Data/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/Data/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/pages/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/ABTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/ABTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/BrokenImages.java" beforeDir="false" afterPath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/BrokenImages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/CheckboxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/CheckboxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/ContextMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/ContextMenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/HorizontalSliderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/HorizontalSliderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/InScrollTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/InScrollTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/InputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/InputTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/JavaScriptTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/JavaScriptTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/MouseHoversTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/MouseHoversTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/MultiWindowTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/MultiWindowTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/NotificationMessageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bkash/src/test/java/com/brac/bkash/MahbubLiveProject/testCases/NotificationMessageTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1vyepew1K88I9DvLyPYDDligSBS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="088b92e2-1f4b-4a9b-b7a7-b047bfcb44c2" name="Changes" comment="" />
+      <created>1627538939834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627538939834</updated>
+    </task>
+    <servers />
+  </component>
+</project>
