@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 580.897 sec <<< FAILURE! - in TestSuite
+abTestingTcAsif(com.ucb.nagad.testcases.AbTestingTcAsif)  Time elapsed: 2.698 sec  <<< FAILURE!
+java.lang.AssertionError: expected [A/B Test Variation 1] but found [A/B Test Control]
+	at com.ucb.nagad.testcases.AbTestingTcAsif.abTestingTcAsif(AbTestingTcAsif.java:35)
+
+disappearingElementsTcAsif(com.ucb.nagad.testcases.DisappearingElementsTcAsif)  Time elapsed: 3.486 sec  <<< FAILURE!
+java.lang.AssertionError: expected [http://the-internet.herokuapp.com/disappearing_elements] but found [https://the-internet.herokuapp.com/disappearing_elements]
+	at com.ucb.nagad.testcases.DisappearingElementsTcAsif.disappearingElementsTcAsif(DisappearingElementsTcAsif.java:25)
+
+dragAndDropTcAsif(com.ucb.nagad.testcases.DragAndDropTcAsif)  Time elapsed: 3.468 sec  <<< FAILURE!
+java.lang.AssertionError: expected [http://the-internet.herokuapp.com/drag_and_drop] but found [https://the-internet.herokuapp.com/drag_and_drop]
+	at com.ucb.nagad.testcases.DragAndDropTcAsif.dragAndDropTcAsif(DragAndDropTcAsif.java:28)
+

@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="6" total="28" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="580312" started-at="2021-09-21T05:21:18Z" finished-at="2021-09-21T05:30:58Z">
+    <groups>
+    </groups>
+    <test name="UITest" duration-ms="580312" started-at="2021-09-21T05:21:18Z" finished-at="2021-09-21T05:30:58Z">
+      <class name="com.ucb.nagad.testcases.AddRemoveElementsTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.AddRemoveElementsTcAsif@2d3fcdbd]" name="beforeClass" is-config="true" duration-ms="1302" started-at="2021-09-21T05:23:14Z" finished-at="2021-09-21T05:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.AddRemoveElementsTcAsif@2d3fcdbd]" name="beforeMethod" is-config="true" duration-ms="4744" started-at="2021-09-21T05:23:15Z" finished-at="2021-09-21T05:23:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addRemoveElementsTcAsif()[pri:0, instance:com.ucb.nagad.testcases.AddRemoveElementsTcAsif@2d3fcdbd]" name="addRemoveElementsTcAsif" duration-ms="9987" started-at="2021-09-21T05:23:20Z" finished-at="2021-09-21T05:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRemoveElementsTcAsif -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.AddRemoveElementsTcAsif@2d3fcdbd]" name="afterClass" is-config="true" duration-ms="684" started-at="2021-09-21T05:23:30Z" finished-at="2021-09-21T05:23:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.AddRemoveElementsTcAsif@2d3fcdbd]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:23:30Z" finished-at="2021-09-21T05:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ucb.nagad.testcases.AddRemoveElementsTcAsif -->
+      <class name="com.ucb.nagad.testcases.ContextMenuTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.ContextMenuTcAsif@34b7bfc0]" name="beforeClass" is-config="true" duration-ms="1303" started-at="2021-09-21T05:28:38Z" finished-at="2021-09-21T05:28:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.ContextMenuTcAsif@34b7bfc0]" name="beforeMethod" is-config="true" duration-ms="7436" started-at="2021-09-21T05:28:39Z" finished-at="2021-09-21T05:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="contextMenuTcAsif()[pri:0, instance:com.ucb.nagad.testcases.ContextMenuTcAsif@34b7bfc0]" name="contextMenuTcAsif" duration-ms="22203" started-at="2021-09-21T05:28:47Z" finished-at="2021-09-21T05:29:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextMenuTcAsif -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.ContextMenuTcAsif@34b7bfc0]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:29:09Z" finished-at="2021-09-21T05:29:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.ContextMenuTcAsif@34b7bfc0]" name="afterClass" is-config="true" duration-ms="662" started-at="2021-09-21T05:29:09Z" finished-at="2021-09-21T05:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ucb.nagad.testcases.ContextMenuTcAsif -->
+      <class name="com.ucb.nagad.testcases.HoversValidationTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.HoversValidationTcAsif@531be3c5]" name="beforeClass" is-config="true" duration-ms="1235" started-at="2021-09-21T05:25:42Z" finished-at="2021-09-21T05:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.HoversValidationTcAsif@531be3c5]" name="beforeMethod" is-config="true" duration-ms="4746" started-at="2021-09-21T05:25:43Z" finished-at="2021-09-21T05:25:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="hoversValidationTcAsif()[pri:0, instance:com.ucb.nagad.testcases.HoversValidationTcAsif@531be3c5]" name="hoversValidationTcAsif" duration-ms="23540" started-at="2021-09-21T05:25:48Z" finished-at="2021-09-21T05:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoversValidationTcAsif -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.HoversValidationTcAsif@531be3c5]" name="afterClass" is-config="true" duration-ms="654" started-at="2021-09-21T05:26:11Z" finished-at="2021-09-21T05:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.HoversValidationTcAsif@531be3c5]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:26:11Z" finished-at="2021-09-21T05:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ucb.nagad.testcases.HoversValidationTcAsif -->
+      <class name="com.ucb.nagad.testcases.NotificationMessagesTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.NotificationMessagesTcAsif@9f70c54]" name="beforeClass" is-config="true" duration-ms="1230" started-at="2021-09-21T05:22:51Z" finished-at="2021-09-21T05:22:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.NotificationMessagesTcAsif@9f70c54]" name="beforeMethod" is-config="true" duration-ms="4709" started-at="2021-09-21T05:22:52Z" finished-at="2021-09-21T05:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="notificationMessagesTcAsif()[pri:0, instance:com.ucb.nagad.testcases.NotificationMessagesTcAsif@9f70c54]" name="notificationMessagesTcAsif" duration-ms="16226" started-at="2021-09-21T05:22:57Z" finished-at="2021-09-21T05:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notificationMessagesTcAsif -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.NotificationMessagesTcAsif@9f70c54]" name="afterClass" is-config="true" duration-ms="671" started-at="2021-09-21T05:23:13Z" finished-at="2021-09-21T05:23:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.NotificationMessagesTcAsif@9f70c54]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:23:13Z" finished-at="2021-09-21T05:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ucb.nagad.testcases.NotificationMessagesTcAsif -->
+      <class name="com.ucb.nagad.testcases.CheckBoxTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.CheckBoxTcAsif@67b6d4ae]" name="beforeClass" is-config="true" duration-ms="1304" started-at="2021-09-21T05:27:21Z" finished-at="2021-09-21T05:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.CheckBoxTcAsif@67b6d4ae]" name="beforeMethod" is-config="true" duration-ms="7309" started-at="2021-09-21T05:27:22Z" finished-at="2021-09-21T05:27:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkBoxTcAsif()[pri:0, instance:com.ucb.nagad.testcases.CheckBoxTcAsif@67b6d4ae]" name="checkBoxTcAsif" duration-ms="17993" started-at="2021-09-21T05:27:29Z" finished-at="2021-09-21T05:27:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoxTcAsif -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.CheckBoxTcAsif@67b6d4ae]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:27:47Z" finished-at="2021-09-21T05:27:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.CheckBoxTcAsif@67b6d4ae]" name="afterClass" is-config="true" duration-ms="646" started-at="2021-09-21T05:27:47Z" finished-at="2021-09-21T05:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ucb.nagad.testcases.CheckBoxTcAsif -->
+      <class name="com.ucb.nagad.testcases.JavaScriptAlertsTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.JavaScriptAlertsTcAsif@2c9f9fb0]" name="beforeClass" is-config="true" duration-ms="1293" started-at="2021-09-21T05:29:57Z" finished-at="2021-09-21T05:29:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.JavaScriptAlertsTcAsif@2c9f9fb0]" name="beforeMethod" is-config="true" duration-ms="8064" started-at="2021-09-21T05:29:58Z" finished-at="2021-09-21T05:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="javaScriptAlertsTcAsif()[pri:0, instance:com.ucb.nagad.testcases.JavaScriptAlertsTcAsif@2c9f9fb0]" name="javaScriptAlertsTcAsif" duration-ms="27985" started-at="2021-09-21T05:30:06Z" finished-at="2021-09-21T05:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaScriptAlertsTcAsif -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.JavaScriptAlertsTcAsif@2c9f9fb0]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:30:34Z" finished-at="2021-09-21T05:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.JavaScriptAlertsTcAsif@2c9f9fb0]" name="afterClass" is-config="true" duration-ms="646" started-at="2021-09-21T05:30:34Z" finished-at="2021-09-21T05:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ucb.nagad.testcases.JavaScriptAlertsTcAsif -->
+      <class name="com.ucb.nagad.testcases.DynamicContentTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.DynamicContentTcAsif@35fb3008]" name="beforeClass" is-config="true" duration-ms="1304" started-at="2021-09-21T05:26:25Z" finished-at="2021-09-21T05:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.DynamicContentTcAsif@35fb3008]" name="beforeMethod" is-config="true" duration-ms="8071" started-at="2021-09-21T05:26:26Z" finished-at="2021-09-21T05:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="dynamicContentTcAsif()[pri:0, instance:com.ucb.nagad.testcases.DynamicContentTcAsif@35fb3008]" name="dynamicContentTcAsif" duration-ms="13831" started-at="2021-09-21T05:26:34Z" finished-at="2021-09-21T05:26:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicContentTcAsif -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.DynamicContentTcAsif@35fb3008]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:26:48Z" finished-at="2021-09-21T05:26:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.DynamicContentTcAsif@35fb3008]" name="afterClass" is-config="true" duration-ms="660" started-at="2021-09-21T05:26:48Z" finished-at="2021-09-21T05:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ucb.nagad.testcases.DynamicContentTcAsif -->
+      <class name="com.ucb.nagad.testcases.BrokenImageTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.BrokenImageTcAsif@6537cf78]" name="beforeClass" is-config="true" duration-ms="1289" started-at="2021-09-21T05:26:12Z" finished-at="2021-09-21T05:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.BrokenImageTcAsif@6537cf78]" name="beforeMethod" is-config="true" duration-ms="4801" started-at="2021-09-21T05:26:13Z" finished-at="2021-09-21T05:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="brokenImageTcAsif()[pri:0, instance:com.ucb.nagad.testcases.BrokenImageTcAsif@6537cf78]" name="brokenImageTcAsif" duration-ms="6532" started-at="2021-09-21T05:26:18Z" finished-at="2021-09-21T05:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenImageTcAsif -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.BrokenImageTcAsif@6537cf78]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:26:24Z" finished-at="2021-09-21T05:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.BrokenImageTcAsif@6537cf78]" name="afterClass" is-config="true" duration-ms="671" started-at="2021-09-21T05:26:24Z" finished-at="2021-09-21T05:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ucb.nagad.testcases.BrokenImageTcAsif -->
+      <class name="com.ucb.nagad.testcases.DisappearingElementsTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.DisappearingElementsTcAsif@366e2eef]" name="beforeClass" is-config="true" duration-ms="1308" started-at="2021-09-21T05:21:28Z" finished-at="2021-09-21T05:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.DisappearingElementsTcAsif@366e2eef]" name="beforeMethod" is-config="true" duration-ms="4764" started-at="2021-09-21T05:21:29Z" finished-at="2021-09-21T05:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="disappearingElementsTcAsif()[pri:0, instance:com.ucb.nagad.testcases.DisappearingElementsTcAsif@366e2eef]" name="disappearingElementsTcAsif" duration-ms="3486" started-at="2021-09-21T05:21:34Z" finished-at="2021-09-21T05:21:38Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [http://the-internet.herokuapp.com/disappearing_elements] but found [https://the-internet.herokuapp.com/disappearing_elements]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [http://the-internet.herokuapp.com/disappearing_elements] but found [https://the-internet.herokuapp.com/disappearing_elements]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.ucb.nagad.testcases.DisappearingElementsTcAsif.disappearingElementsTcAsif(DisappearingElementsTcAsif.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disappearingElementsTcAsif -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.DisappearingElementsTcAsif@366e2eef]" name="afterClass" is-config="true" duration-ms="652" started-at="2021-09-21T05:21:38Z" finished-at="2021-09-21T05:21:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.DisappearingElementsTcAsif@366e2eef]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:21:38Z" finished-at="2021-09-21T05:21:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ucb.nagad.testcases.DisappearingElementsTcAsif -->
+      <class name="com.ucb.nagad.testcases.FrameIFrameValidationTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.FrameIFrameValidationTcAsif@5a61f5df]" name="beforeClass" is-config="true" duration-ms="1304" started-at="2021-09-21T05:21:58Z" finished-at="2021-09-21T05:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.FrameIFrameValidationTcAsif@5a61f5df]" name="beforeMethod" is-config="true" duration-ms="4789" started-at="2021-09-21T05:22:00Z" finished-at="2021-09-21T05:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="frameIFrameValidationTcAsif()[pri:0, instance:com.ucb.nagad.testcases.FrameIFrameValidationTcAsif@5a61f5df]" name="frameIFrameValidationTcAsif" duration-ms="46023" started-at="2021-09-21T05:22:04Z" finished-at="2021-09-21T05:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frameIFrameValidationTcAsif -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.FrameIFrameValidationTcAsif@5a61f5df]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:22:50Z" finished-at="2021-09-21T05:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.FrameIFrameValidationTcAsif@5a61f5df]" name="afterClass" is-config="true" duration-ms="672" started-at="2021-09-21T05:22:50Z" finished-at="2021-09-21T05:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ucb.nagad.testcases.FrameIFrameValidationTcAsif -->
+      <class name="com.ucb.nagad.testcases.InputsValidationTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.InputsValidationTcAsif@735b478]" name="beforeClass" is-config="true" duration-ms="1239" started-at="2021-09-21T05:28:23Z" finished-at="2021-09-21T05:28:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.InputsValidationTcAsif@735b478]" name="beforeMethod" is-config="true" duration-ms="4744" started-at="2021-09-21T05:28:24Z" finished-at="2021-09-21T05:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="inputsValidationTcAsif()[pri:0, instance:com.ucb.nagad.testcases.InputsValidationTcAsif@735b478]" name="inputsValidationTcAsif" duration-ms="8709" started-at="2021-09-21T05:28:29Z" finished-at="2021-09-21T05:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputsValidationTcAsif -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.InputsValidationTcAsif@735b478]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:28:38Z" finished-at="2021-09-21T05:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.InputsValidationTcAsif@735b478]" name="afterClass" is-config="true" duration-ms="643" started-at="2021-09-21T05:28:38Z" finished-at="2021-09-21T05:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ucb.nagad.testcases.InputsValidationTcAsif -->
+      <class name="com.ucb.nagad.testcases.DropDownTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.DropDownTcAsif@3cbbc1e0]" name="beforeClass" is-config="true" duration-ms="1279" started-at="2021-09-21T05:25:07Z" finished-at="2021-09-21T05:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.DropDownTcAsif@3cbbc1e0]" name="beforeMethod" is-config="true" duration-ms="4749" started-at="2021-09-21T05:25:08Z" finished-at="2021-09-21T05:25:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="dropDownTcAsif()[pri:0, instance:com.ucb.nagad.testcases.DropDownTcAsif@3cbbc1e0]" name="dropDownTcAsif" duration-ms="28109" started-at="2021-09-21T05:25:13Z" finished-at="2021-09-21T05:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownTcAsif -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.DropDownTcAsif@3cbbc1e0]" name="afterClass" is-config="true" duration-ms="644" started-at="2021-09-21T05:25:41Z" finished-at="2021-09-21T05:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.DropDownTcAsif@3cbbc1e0]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:25:41Z" finished-at="2021-09-21T05:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ucb.nagad.testcases.DropDownTcAsif -->
+      <class name="com.ucb.nagad.testcases.FileUploadTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.FileUploadTcAsif@7225790e]" name="beforeClass" is-config="true" duration-ms="1300" started-at="2021-09-21T05:27:48Z" finished-at="2021-09-21T05:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.FileUploadTcAsif@7225790e]" name="beforeMethod" is-config="true" duration-ms="4742" started-at="2021-09-21T05:27:49Z" finished-at="2021-09-21T05:27:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="fileUploadTcAsif()[pri:0, instance:com.ucb.nagad.testcases.FileUploadTcAsif@7225790e]" name="fileUploadTcAsif" duration-ms="28217" started-at="2021-09-21T05:27:54Z" finished-at="2021-09-21T05:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadTcAsif -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.FileUploadTcAsif@7225790e]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:28:22Z" finished-at="2021-09-21T05:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.FileUploadTcAsif@7225790e]" name="afterClass" is-config="true" duration-ms="641" started-at="2021-09-21T05:28:22Z" finished-at="2021-09-21T05:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ucb.nagad.testcases.FileUploadTcAsif -->
+      <class name="com.ucb.nagad.testcases.ForgotPasswordTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.ForgotPasswordTcAsif@36f6e879]" name="beforeClass" is-config="true" duration-ms="1290" started-at="2021-09-21T05:21:38Z" finished-at="2021-09-21T05:21:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.ForgotPasswordTcAsif@36f6e879]" name="beforeMethod" is-config="true" duration-ms="4732" started-at="2021-09-21T05:21:40Z" finished-at="2021-09-21T05:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="forgotPasswordTcAsif()[pri:0, instance:com.ucb.nagad.testcases.ForgotPasswordTcAsif@36f6e879]" name="forgotPasswordTcAsif" duration-ms="13378" started-at="2021-09-21T05:21:44Z" finished-at="2021-09-21T05:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordTcAsif -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.ForgotPasswordTcAsif@36f6e879]" name="afterClass" is-config="true" duration-ms="643" started-at="2021-09-21T05:21:58Z" finished-at="2021-09-21T05:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.ForgotPasswordTcAsif@36f6e879]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:21:58Z" finished-at="2021-09-21T05:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ucb.nagad.testcases.ForgotPasswordTcAsif -->
+      <class name="com.ucb.nagad.testcases.RedirectLinkTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.RedirectLinkTcAsif@234bef66]" name="beforeClass" is-config="true" duration-ms="1243" started-at="2021-09-21T05:23:56Z" finished-at="2021-09-21T05:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.RedirectLinkTcAsif@234bef66]" name="beforeMethod" is-config="true" duration-ms="8120" started-at="2021-09-21T05:23:57Z" finished-at="2021-09-21T05:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="redirectLinkTcAsif()[pri:0, instance:com.ucb.nagad.testcases.RedirectLinkTcAsif@234bef66]" name="redirectLinkTcAsif" duration-ms="37209" started-at="2021-09-21T05:24:05Z" finished-at="2021-09-21T05:24:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectLinkTcAsif -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.RedirectLinkTcAsif@234bef66]" name="afterClass" is-config="true" duration-ms="625" started-at="2021-09-21T05:24:42Z" finished-at="2021-09-21T05:24:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.RedirectLinkTcAsif@234bef66]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:24:42Z" finished-at="2021-09-21T05:24:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ucb.nagad.testcases.RedirectLinkTcAsif -->
+      <class name="com.ucb.nagad.testcases.DragAndDropTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.DragAndDropTcAsif@6df97b55]" name="beforeClass" is-config="true" duration-ms="1307" started-at="2021-09-21T05:23:31Z" finished-at="2021-09-21T05:23:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.DragAndDropTcAsif@6df97b55]" name="beforeMethod" is-config="true" duration-ms="5041" started-at="2021-09-21T05:23:32Z" finished-at="2021-09-21T05:23:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="dragAndDropTcAsif()[pri:0, instance:com.ucb.nagad.testcases.DragAndDropTcAsif@6df97b55]" name="dragAndDropTcAsif" duration-ms="3466" started-at="2021-09-21T05:23:37Z" finished-at="2021-09-21T05:23:41Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [http://the-internet.herokuapp.com/drag_and_drop] but found [https://the-internet.herokuapp.com/drag_and_drop]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [http://the-internet.herokuapp.com/drag_and_drop] but found [https://the-internet.herokuapp.com/drag_and_drop]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.ucb.nagad.testcases.DragAndDropTcAsif.dragAndDropTcAsif(DragAndDropTcAsif.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDropTcAsif -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.DragAndDropTcAsif@6df97b55]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-09-21T05:23:41Z" finished-at="2021-09-21T05:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.DragAndDropTcAsif@6df97b55]" name="afterClass" is-config="true" duration-ms="650" started-at="2021-09-21T05:23:41Z" finished-at="2021-09-21T05:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ucb.nagad.testcases.DragAndDropTcAsif -->
+      <class name="com.ucb.nagad.testcases.InfiniteScrollTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.InfiniteScrollTcAsif@52af6cff]" name="beforeClass" is-config="true" duration-ms="1215" started-at="2021-09-21T05:26:49Z" finished-at="2021-09-21T05:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.InfiniteScrollTcAsif@52af6cff]" name="beforeMethod" is-config="true" duration-ms="4755" started-at="2021-09-21T05:26:50Z" finished-at="2021-09-21T05:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="infiniteScrollTcAsif()[pri:0, instance:com.ucb.nagad.testcases.InfiniteScrollTcAsif@52af6cff]" name="infiniteScrollTcAsif" duration-ms="25097" started-at="2021-09-21T05:26:55Z" finished-at="2021-09-21T05:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- infiniteScrollTcAsif -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.InfiniteScrollTcAsif@52af6cff]" name="afterClass" is-config="true" duration-ms="654" started-at="2021-09-21T05:27:20Z" finished-at="2021-09-21T05:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.InfiniteScrollTcAsif@52af6cff]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:27:20Z" finished-at="2021-09-21T05:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ucb.nagad.testcases.InfiniteScrollTcAsif -->
+      <class name="com.ucb.nagad.testcases.BasicAuthTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.BasicAuthTcAsif@617c74e5]" name="beforeClass" is-config="true" duration-ms="1287" started-at="2021-09-21T05:24:43Z" finished-at="2021-09-21T05:24:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.BasicAuthTcAsif@617c74e5]" name="beforeMethod" is-config="true" duration-ms="4719" started-at="2021-09-21T05:24:44Z" finished-at="2021-09-21T05:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="basicAuthTcAsif()[pri:0, instance:com.ucb.nagad.testcases.BasicAuthTcAsif@617c74e5]" name="basicAuthTcAsif" duration-ms="17084" started-at="2021-09-21T05:24:49Z" finished-at="2021-09-21T05:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicAuthTcAsif -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.BasicAuthTcAsif@617c74e5]" name="afterClass" is-config="true" duration-ms="674" started-at="2021-09-21T05:25:06Z" finished-at="2021-09-21T05:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.BasicAuthTcAsif@617c74e5]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:25:06Z" finished-at="2021-09-21T05:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ucb.nagad.testcases.BasicAuthTcAsif -->
+      <class name="com.ucb.nagad.testcases.DynamicControlsTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.DynamicControlsTcAsif@54a097cc]" name="beforeClass" is-config="true" duration-ms="1227" started-at="2021-09-21T05:29:10Z" finished-at="2021-09-21T05:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.DynamicControlsTcAsif@54a097cc]" name="beforeMethod" is-config="true" duration-ms="5356" started-at="2021-09-21T05:29:11Z" finished-at="2021-09-21T05:29:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="dynamicControlsTcAsif()[pri:0, instance:com.ucb.nagad.testcases.DynamicControlsTcAsif@54a097cc]" name="dynamicControlsTcAsif" duration-ms="39491" started-at="2021-09-21T05:29:16Z" finished-at="2021-09-21T05:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicControlsTcAsif -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.DynamicControlsTcAsif@54a097cc]" name="afterClass" is-config="true" duration-ms="673" started-at="2021-09-21T05:29:56Z" finished-at="2021-09-21T05:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.DynamicControlsTcAsif@54a097cc]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:29:56Z" finished-at="2021-09-21T05:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ucb.nagad.testcases.DynamicControlsTcAsif -->
+      <class name="com.ucb.nagad.testcases.AbTestingTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.AbTestingTcAsif@3a03464]" name="beforeClass" is-config="true" duration-ms="2122" started-at="2021-09-21T05:21:18Z" finished-at="2021-09-21T05:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.AbTestingTcAsif@3a03464]" name="beforeMethod" is-config="true" duration-ms="4717" started-at="2021-09-21T05:21:20Z" finished-at="2021-09-21T05:21:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="abTestingTcAsif()[pri:0, instance:com.ucb.nagad.testcases.AbTestingTcAsif@3a03464]" name="abTestingTcAsif" duration-ms="2689" started-at="2021-09-21T05:21:25Z" finished-at="2021-09-21T05:21:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [A/B Test Variation 1] but found [A/B Test Control]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [A/B Test Variation 1] but found [A/B Test Control]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.ucb.nagad.testcases.AbTestingTcAsif.abTestingTcAsif(AbTestingTcAsif.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abTestingTcAsif -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.AbTestingTcAsif@3a03464]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:21:27Z" finished-at="2021-09-21T05:21:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.AbTestingTcAsif@3a03464]" name="afterClass" is-config="true" duration-ms="659" started-at="2021-09-21T05:21:27Z" finished-at="2021-09-21T05:21:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ucb.nagad.testcases.AbTestingTcAsif -->
+      <class name="com.ucb.nagad.testcases.HorizontalSliderTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.HorizontalSliderTcAsif@3551a94]" name="beforeClass" is-config="true" duration-ms="1265" started-at="2021-09-21T05:23:41Z" finished-at="2021-09-21T05:23:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.HorizontalSliderTcAsif@3551a94]" name="beforeMethod" is-config="true" duration-ms="4808" started-at="2021-09-21T05:23:42Z" finished-at="2021-09-21T05:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="horizontalSliderTcAsif()[pri:0, instance:com.ucb.nagad.testcases.HorizontalSliderTcAsif@3551a94]" name="horizontalSliderTcAsif" duration-ms="7981" started-at="2021-09-21T05:23:47Z" finished-at="2021-09-21T05:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- horizontalSliderTcAsif -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.HorizontalSliderTcAsif@3551a94]" name="afterClass" is-config="true" duration-ms="644" started-at="2021-09-21T05:23:55Z" finished-at="2021-09-21T05:23:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.HorizontalSliderTcAsif@3551a94]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:23:55Z" finished-at="2021-09-21T05:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ucb.nagad.testcases.HorizontalSliderTcAsif -->
+      <class name="com.ucb.nagad.testcases.MultipleWindowsTcAsif">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ucb.nagad.testcases.MultipleWindowsTcAsif@2096442d]" name="beforeClass" is-config="true" duration-ms="1298" started-at="2021-09-21T05:30:34Z" finished-at="2021-09-21T05:30:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ucb.nagad.testcases.MultipleWindowsTcAsif@2096442d]" name="beforeMethod" is-config="true" duration-ms="7181" started-at="2021-09-21T05:30:36Z" finished-at="2021-09-21T05:30:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="multipleWindowsTcAsif()[pri:0, instance:com.ucb.nagad.testcases.MultipleWindowsTcAsif@2096442d]" name="multipleWindowsTcAsif" duration-ms="14548" started-at="2021-09-21T05:30:43Z" finished-at="2021-09-21T05:30:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleWindowsTcAsif -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ucb.nagad.testcases.MultipleWindowsTcAsif@2096442d]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-09-21T05:30:58Z" finished-at="2021-09-21T05:30:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ucb.nagad.testcases.MultipleWindowsTcAsif@2096442d]" name="afterClass" is-config="true" duration-ms="671" started-at="2021-09-21T05:30:58Z" finished-at="2021-09-21T05:30:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ucb.nagad.testcases.MultipleWindowsTcAsif -->
+    </test> <!-- UITest -->
+  </suite> <!-- Regression -->
+</testng-results>

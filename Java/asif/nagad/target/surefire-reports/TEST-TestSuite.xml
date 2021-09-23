@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="580.897" tests="22" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\User\Documents\github-sqa\sqabdautomation\Java\asif\nagad"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\User\Documents\github-sqa\sqabdautomation\Java\asif\nagad"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files\Java\jdk-16.0.1\bin;C:\Program Files\nodejs\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1\bin;;C:\Users\User\AppData\Roaming\npm;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\User"/>
+    <property name="user.timezone" value="Asia/Dhaka"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="User"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="abTestingTcAsif" classname="com.ucb.nagad.testcases.AbTestingTcAsif" time="2.698">
+    <failure message="expected [A/B Test Variation 1] but found [A/B Test Control]" type="java.lang.AssertionError">java.lang.AssertionError: expected [A/B Test Variation 1] but found [A/B Test Control]
+	at com.ucb.nagad.testcases.AbTestingTcAsif.abTestingTcAsif(AbTestingTcAsif.java:35)
+</failure>
+    <system-out><![CDATA[A/B Testing
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 27642
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 21, 2021 11:21:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="disappearingElementsTcAsif" classname="com.ucb.nagad.testcases.DisappearingElementsTcAsif" time="3.486">
+    <failure message="expected [http://the-internet.herokuapp.com/disappearing_elements] but found [https://the-internet.herokuapp.com/disappearing_elements]" type="java.lang.AssertionError">java.lang.AssertionError: expected [http://the-internet.herokuapp.com/disappearing_elements] but found [https://the-internet.herokuapp.com/disappearing_elements]
+	at com.ucb.nagad.testcases.DisappearingElementsTcAsif.disappearingElementsTcAsif(DisappearingElementsTcAsif.java:25)
+</failure>
+    <system-out><![CDATA[Method is passing
+http://the-internet.herokuapp.com/disappearing_elements
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 18941
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 21, 2021 11:21:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="forgotPasswordTcAsif" classname="com.ucb.nagad.testcases.ForgotPasswordTcAsif" time="13.378"/>
+  <testcase name="frameIFrameValidationTcAsif" classname="com.ucb.nagad.testcases.FrameIFrameValidationTcAsif" time="46.023"/>
+  <testcase name="notificationMessagesTcAsif" classname="com.ucb.nagad.testcases.NotificationMessagesTcAsif" time="16.226"/>
+  <testcase name="addRemoveElementsTcAsif" classname="com.ucb.nagad.testcases.AddRemoveElementsTcAsif" time="9.987"/>
+  <testcase name="dragAndDropTcAsif" classname="com.ucb.nagad.testcases.DragAndDropTcAsif" time="3.468">
+    <failure message="expected [http://the-internet.herokuapp.com/drag_and_drop] but found [https://the-internet.herokuapp.com/drag_and_drop]" type="java.lang.AssertionError">java.lang.AssertionError: expected [http://the-internet.herokuapp.com/drag_and_drop] but found [https://the-internet.herokuapp.com/drag_and_drop]
+	at com.ucb.nagad.testcases.DragAndDropTcAsif.dragAndDropTcAsif(DragAndDropTcAsif.java:28)
+</failure>
+    <system-out><![CDATA[Method is passing
+
+
+http://the-internet.herokuapp.com/drag_and_drop
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 40910
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 21, 2021 11:23:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="horizontalSliderTcAsif" classname="com.ucb.nagad.testcases.HorizontalSliderTcAsif" time="7.981"/>
+  <testcase name="redirectLinkTcAsif" classname="com.ucb.nagad.testcases.RedirectLinkTcAsif" time="37.209"/>
+  <testcase name="basicAuthTcAsif" classname="com.ucb.nagad.testcases.BasicAuthTcAsif" time="17.084"/>
+  <testcase name="dropDownTcAsif" classname="com.ucb.nagad.testcases.DropDownTcAsif" time="28.109"/>
+  <testcase name="hoversValidationTcAsif" classname="com.ucb.nagad.testcases.HoversValidationTcAsif" time="23.54"/>
+  <testcase name="brokenImageTcAsif" classname="com.ucb.nagad.testcases.BrokenImageTcAsif" time="6.533"/>
+  <testcase name="dynamicContentTcAsif" classname="com.ucb.nagad.testcases.DynamicContentTcAsif" time="13.831"/>
+  <testcase name="infiniteScrollTcAsif" classname="com.ucb.nagad.testcases.InfiniteScrollTcAsif" time="25.097"/>
+  <testcase name="checkBoxTcAsif" classname="com.ucb.nagad.testcases.CheckBoxTcAsif" time="17.993"/>
+  <testcase name="fileUploadTcAsif" classname="com.ucb.nagad.testcases.FileUploadTcAsif" time="28.217"/>
+  <testcase name="inputsValidationTcAsif" classname="com.ucb.nagad.testcases.InputsValidationTcAsif" time="8.709"/>
+  <testcase name="contextMenuTcAsif" classname="com.ucb.nagad.testcases.ContextMenuTcAsif" time="22.203"/>
+  <testcase name="dynamicControlsTcAsif" classname="com.ucb.nagad.testcases.DynamicControlsTcAsif" time="39.491"/>
+  <testcase name="javaScriptAlertsTcAsif" classname="com.ucb.nagad.testcases.JavaScriptAlertsTcAsif" time="27.985"/>
+  <testcase name="multipleWindowsTcAsif" classname="com.ucb.nagad.testcases.MultipleWindowsTcAsif" time="14.548"/>
+</testsuite>

@@ -1,0 +1,186 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression" verbose="1" >
+    <test name="UITest">
+
+        <classes>
+
+            <class name ="com.ucb.nagad.testcases.UserAbleToEnterFirstNameLastNameOnTheCreateAccountPopUp">
+                <methods>
+                    <exclude name="userAbleToEnterFirstNameLastNameOnTheCreateAccountPopUp" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.UserAbleToValidateCreateNewAccount">
+                <methods>
+                    <exclude name="userAbleToValidateCreateNewAccount" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.AbTestingTcAsif">
+                <methods>
+                    <include name="abTestingTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.AddRemoveElementsTcAsif">
+                <methods>
+                    <include name="addRemoveElementsTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.BasicAuthTcAsif">
+                <methods>
+                    <include name="basicAuthTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.BrokenImageTcAsif">
+                <methods>
+                    <include name="brokenImageTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.CheckBoxTcAsif">
+                <methods>
+                    <include name="checkBoxTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.ContextMenuTcAsif">
+                <methods>
+                    <include name="contextMenuTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.DigestAuthenticationTcAsif">
+                <methods>
+                    <include name="digestAuthenticationTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.DisappearingElementsTcAsif">
+                <methods>
+                    <include name="disappearingElementsTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.DragAndDropTcAsif">
+                <methods>
+                    <include name="dragAndDropTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.DropDownTcAsif">
+                <methods>
+                    <include name="dropDownTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.DynamicContentTcAsif">
+                <methods>
+                    <include name="dynamicContentTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.FileUploadTcAsif">
+                <methods>
+                    <include name="fileUploadTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.DynamicControlsTcAsif">
+                <methods>
+                    <include name="dynamicControlsTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.FileDownloadTcAsif">
+                <methods>
+                    <include name="FileDownloadTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.FileUploadTcAsif">
+                <methods>
+                    <include name="fileUploadTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.ForgotPasswordTcAsif">
+                <methods>
+                    <include name="forgotPasswordTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.FormAuthenticationTcAsif">
+                <methods>
+                    <include name="formAuthenticationTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.FrameIFrameValidationTcAsif">
+                <methods>
+                    <include name="frameIFrameValidationTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.HorizontalSliderTcAsif">
+                <methods>
+                    <include name="horizontalSliderTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.HoversValidationTcAsif">
+                <methods>
+                    <include name="hoversValidationTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.InfiniteScrollTcAsif">
+                <methods>
+                    <include name="infiniteScrollTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.InputsValidationTcAsif">
+                <methods>
+                    <include name="inputsValidationTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.JavaScriptAlertsTcAsif">
+                <methods>
+                    <include name="javaScriptAlertsTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.MultipleWindowsTcAsif">
+                <methods>
+                    <include name="multipleWindowsTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.NestedFrameValidationTcAsif">
+                <methods>
+                    <include name="nestedFrameValidationTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.NotificationMessagesTcAsif">
+                <methods>
+                    <include name="notificationMessagesTcAsif" />
+                </methods>
+            </class>
+
+            <class name ="com.ucb.nagad.testcases.RedirectLinkTcAsif">
+                <methods>
+                    <include name="redirectLinkTcAsif" />
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+</suite>

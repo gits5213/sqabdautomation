@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Regression]">
+  <test thread-count="5" verbose="0" name="UITest(failed)">
+    <classes>
+      <class name="com.ucb.nagad.testcases.DisappearingElementsTcAsif">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="disappearingElementsTcAsif"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.ucb.nagad.testcases.DisappearingElementsTcAsif -->
+      <class name="com.ucb.nagad.testcases.AbTestingTcAsif">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="abTestingTcAsif"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.ucb.nagad.testcases.AbTestingTcAsif -->
+      <class name="com.ucb.nagad.testcases.DragAndDropTcAsif">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="dragAndDropTcAsif"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.ucb.nagad.testcases.DragAndDropTcAsif -->
+    </classes>
+  </test> <!-- UITest(failed) -->
+</suite> <!-- Failed suite [Regression] -->
