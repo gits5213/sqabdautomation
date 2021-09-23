@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="871670f7-1070-4162-9439-2f57ab8876e2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../bkash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bkash/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bkash/browser/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bkash/src/main/java/com/brac/bkash/tc/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bkash/src/test/java/com/brac/bkash/tc/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../bkash/src/test/java/com/brac/bkash/tc/BaseTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1tQtChBhJUMnmep7Ot8NqVbI3E3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\browser" />
+      <recent name="G:\Talha\SQA\Github\sqabdautomation\Java\Talha\swaglabs\browser\chromedriver" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.saucedemo.swaglabs.testCases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.BasicAuth">
+    <configuration name="BasicAuth" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="swaglabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saucedemo.swaglabs.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saucedemo.swaglabs.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.swaglabs.testCases.BasicAuth" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="G:/Talha/SQA/Github/sqabdautomation/Java/Talha/swaglabs/testngSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="swaglabs" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserAbleToClickAndValidateABTestingAndCorrespondingPages" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="swaglabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saucedemo.swaglabs.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saucedemo.swaglabs.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.swaglabs.testCases.UserAbleToClickAndValidateABTestingAndCorrespondingPages" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserAbleToClickAndValidateAddRemoveElementsAndCorrespondingPages" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="swaglabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saucedemo.swaglabs.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saucedemo.swaglabs.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.swaglabs.testCases.UserAbleToClickAndValidateAddRemoveElementsAndCorrespondingPages" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserAbleToClickAndValidateAddRemoveElementsAndCorrespondingPages.userAbleToClickAndValidateAddRemoveElementsAndCorrespondingPages" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="swaglabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saucedemo.swaglabs.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saucedemo.swaglabs.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.swaglabs.testCases.UserAbleToClickAndValidateAddRemoveElementsAndCorrespondingPages" />
+      <option name="METHOD_NAME" value="userAbleToClickAndValidateAddRemoveElementsAndCorrespondingPages" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.BasicAuth" />
+        <item itemvalue="TestNG.UserAbleToClickAndValidateAddRemoveElementsAndCorrespondingPages" />
+        <item itemvalue="TestNG.UserAbleToClickAndValidateAddRemoveElementsAndCorrespondingPages.userAbleToClickAndValidateAddRemoveElementsAndCorrespondingPages" />
+        <item itemvalue="TestNG.UserAbleToClickAndValidateABTestingAndCorrespondingPages" />
+        <item itemvalue="TestNG.G:/Talha/SQA/Github/sqabdautomation/Java/Talha/swaglabs/testngSuite.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="871670f7-1070-4162-9439-2f57ab8876e2" name="Default Changelist" comment="" />
+      <created>1622713016606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622713016606</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

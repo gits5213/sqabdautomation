@@ -1,0 +1,6 @@
+com\saucedemo\swaglabs\testCases\UserAbleToClickOnForgetPassword.class
+com\saucedemo\swaglabs\testCases\UserAbleToValidateCreateNewAccount.class
+com\saucedemo\swaglabs\testCases\UserAbleToClickOnLoginSwagLabs.class
+com\saucedemo\swaglabs\basicJava\FirstClass.class
+com\saucedemo\swaglabs\testCases\UserAbleToLogin.class
+com\saucedemo\swaglabs\testCases\UserAbleToClickOnCreateNewAccount.class
