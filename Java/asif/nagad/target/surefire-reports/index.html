@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Regression">
+              <span class="suite-name border-failed">Regression</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Regression">
+                    <span>C:\Users\User\Documents\github-sqa\sqabdautomation\Java\asif\nagad\testngSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Regression">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Regression">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Regression">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Regression">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Regression">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Regression">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods, 3 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Regression" class="hide-methods failed suite-Regression"> (hide)</a> <!-- hide-methods failed suite-Regression -->
+                      <a href="#" panel-name="suite-Regression" class="show-methods failed suite-Regression"> (show)</a> <!-- show-methods failed suite-Regression -->
+                    </span>
+                    <div class="method-list-content failed suite-Regression">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.AbTestingTcAsif" hash-for-method="abTestingTcAsif">abTestingTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.DisappearingElementsTcAsif" hash-for-method="disappearingElementsTcAsif">disappearingElementsTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.DragAndDropTcAsif" hash-for-method="dragAndDropTcAsif">dragAndDropTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Regression -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression" class="hide-methods passed suite-Regression"> (hide)</a> <!-- hide-methods passed suite-Regression -->
+                      <a href="#" panel-name="suite-Regression" class="show-methods passed suite-Regression"> (show)</a> <!-- show-methods passed suite-Regression -->
+                    </span>
+                    <div class="method-list-content passed suite-Regression">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.AddRemoveElementsTcAsif" hash-for-method="addRemoveElementsTcAsif">addRemoveElementsTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.BasicAuthTcAsif" hash-for-method="basicAuthTcAsif">basicAuthTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.BrokenImageTcAsif" hash-for-method="brokenImageTcAsif">brokenImageTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.CheckBoxTcAsif" hash-for-method="checkBoxTcAsif">checkBoxTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.ContextMenuTcAsif" hash-for-method="contextMenuTcAsif">contextMenuTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.DropDownTcAsif" hash-for-method="dropDownTcAsif">dropDownTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.DynamicContentTcAsif" hash-for-method="dynamicContentTcAsif">dynamicContentTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.DynamicControlsTcAsif" hash-for-method="dynamicControlsTcAsif">dynamicControlsTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.FileUploadTcAsif" hash-for-method="fileUploadTcAsif">fileUploadTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.ForgotPasswordTcAsif" hash-for-method="forgotPasswordTcAsif">forgotPasswordTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.FrameIFrameValidationTcAsif" hash-for-method="frameIFrameValidationTcAsif">frameIFrameValidationTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.HorizontalSliderTcAsif" hash-for-method="horizontalSliderTcAsif">horizontalSliderTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.HoversValidationTcAsif" hash-for-method="hoversValidationTcAsif">hoversValidationTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.InfiniteScrollTcAsif" hash-for-method="infiniteScrollTcAsif">infiniteScrollTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.InputsValidationTcAsif" hash-for-method="inputsValidationTcAsif">inputsValidationTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.JavaScriptAlertsTcAsif" hash-for-method="javaScriptAlertsTcAsif">javaScriptAlertsTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.MultipleWindowsTcAsif" hash-for-method="multipleWindowsTcAsif">multipleWindowsTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.NotificationMessagesTcAsif" hash-for-method="notificationMessagesTcAsif">notificationMessagesTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="com.ucb.nagad.testcases.RedirectLinkTcAsif" hash-for-method="redirectLinkTcAsif">redirectLinkTcAsif</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Regression" class="panel Regression">
+          <div class="suite-Regression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.DisappearingElementsTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="disappearingElementsTcAsif">
+                  </a> <!-- disappearingElementsTcAsif -->
+                  <span class="method-name">disappearingElementsTcAsif</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [http://the-internet.herokuapp.com/disappearing_elements] but found [https://the-internet.herokuapp.com/disappearing_elements]
+	at com.ucb.nagad.testcases.DisappearingElementsTcAsif.disappearingElementsTcAsif(DisappearingElementsTcAsif.java:25)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-failed -->
+          <div class="suite-Regression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.AbTestingTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="abTestingTcAsif">
+                  </a> <!-- abTestingTcAsif -->
+                  <span class="method-name">abTestingTcAsif</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [A/B Test Variation 1] but found [A/B Test Control]
+	at com.ucb.nagad.testcases.AbTestingTcAsif.abTestingTcAsif(AbTestingTcAsif.java:35)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-failed -->
+          <div class="suite-Regression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.DragAndDropTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragAndDropTcAsif">
+                  </a> <!-- dragAndDropTcAsif -->
+                  <span class="method-name">dragAndDropTcAsif</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [http://the-internet.herokuapp.com/drag_and_drop] but found [https://the-internet.herokuapp.com/drag_and_drop]
+	at com.ucb.nagad.testcases.DragAndDropTcAsif.dragAndDropTcAsif(DragAndDropTcAsif.java:28)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-failed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.FileUploadTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fileUploadTcAsif">
+                  </a> <!-- fileUploadTcAsif -->
+                  <span class="method-name">fileUploadTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.NotificationMessagesTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="notificationMessagesTcAsif">
+                  </a> <!-- notificationMessagesTcAsif -->
+                  <span class="method-name">notificationMessagesTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.MultipleWindowsTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleWindowsTcAsif">
+                  </a> <!-- multipleWindowsTcAsif -->
+                  <span class="method-name">multipleWindowsTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.RedirectLinkTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectLinkTcAsif">
+                  </a> <!-- redirectLinkTcAsif -->
+                  <span class="method-name">redirectLinkTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.DynamicControlsTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dynamicControlsTcAsif">
+                  </a> <!-- dynamicControlsTcAsif -->
+                  <span class="method-name">dynamicControlsTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.JavaScriptAlertsTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="javaScriptAlertsTcAsif">
+                  </a> <!-- javaScriptAlertsTcAsif -->
+                  <span class="method-name">javaScriptAlertsTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.DropDownTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropDownTcAsif">
+                  </a> <!-- dropDownTcAsif -->
+                  <span class="method-name">dropDownTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.AddRemoveElementsTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addRemoveElementsTcAsif">
+                  </a> <!-- addRemoveElementsTcAsif -->
+                  <span class="method-name">addRemoveElementsTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.ContextMenuTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contextMenuTcAsif">
+                  </a> <!-- contextMenuTcAsif -->
+                  <span class="method-name">contextMenuTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.ForgotPasswordTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPasswordTcAsif">
+                  </a> <!-- forgotPasswordTcAsif -->
+                  <span class="method-name">forgotPasswordTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.CheckBoxTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBoxTcAsif">
+                  </a> <!-- checkBoxTcAsif -->
+                  <span class="method-name">checkBoxTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.HorizontalSliderTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="horizontalSliderTcAsif">
+                  </a> <!-- horizontalSliderTcAsif -->
+                  <span class="method-name">horizontalSliderTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.DynamicContentTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dynamicContentTcAsif">
+                  </a> <!-- dynamicContentTcAsif -->
+                  <span class="method-name">dynamicContentTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.InputsValidationTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="inputsValidationTcAsif">
+                  </a> <!-- inputsValidationTcAsif -->
+                  <span class="method-name">inputsValidationTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.BrokenImageTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="brokenImageTcAsif">
+                  </a> <!-- brokenImageTcAsif -->
+                  <span class="method-name">brokenImageTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.HoversValidationTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="hoversValidationTcAsif">
+                  </a> <!-- hoversValidationTcAsif -->
+                  <span class="method-name">hoversValidationTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.BasicAuthTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="basicAuthTcAsif">
+                  </a> <!-- basicAuthTcAsif -->
+                  <span class="method-name">basicAuthTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.InfiniteScrollTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="infiniteScrollTcAsif">
+                  </a> <!-- infiniteScrollTcAsif -->
+                  <span class="method-name">infiniteScrollTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ucb.nagad.testcases.FrameIFrameValidationTcAsif</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="frameIFrameValidationTcAsif">
+                  </a> <!-- frameIFrameValidationTcAsif -->
+                  <span class="method-name">frameIFrameValidationTcAsif</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+        </div> <!-- panel Regression -->
+        <div panel-name="test-xml-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\User\Documents\github-sqa\sqabdautomation\Java\asif\nagad\testngSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Regression&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;UITest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.UserAbleToEnterFirstNameLastNameOnTheCreateAccountPopUp&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;userAbleToEnterFirstNameLastNameOnTheCreateAccountPopUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.UserAbleToEnterFirstNameLastNameOnTheCreateAccountPopUp --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.UserAbleToValidateCreateNewAccount&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;userAbleToValidateCreateNewAccount&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.UserAbleToValidateCreateNewAccount --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.AbTestingTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;abTestingTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.AbTestingTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.AddRemoveElementsTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addRemoveElementsTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.AddRemoveElementsTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.BasicAuthTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;basicAuthTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.BasicAuthTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.BrokenImageTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;brokenImageTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.BrokenImageTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.CheckBoxTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;checkBoxTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.CheckBoxTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.ContextMenuTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;contextMenuTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.ContextMenuTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.DigestAuthenticationTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;digestAuthenticationTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.DigestAuthenticationTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.DisappearingElementsTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;disappearingElementsTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.DisappearingElementsTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.DragAndDropTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;dragAndDropTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.DragAndDropTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.DropDownTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;dropDownTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.DropDownTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.DynamicContentTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;dynamicContentTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.DynamicContentTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.FileUploadTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;fileUploadTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.FileUploadTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.DynamicControlsTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;dynamicControlsTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.DynamicControlsTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.FileDownloadTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;FileDownloadTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.FileDownloadTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.FileUploadTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;fileUploadTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.FileUploadTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.ForgotPasswordTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;forgotPasswordTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.ForgotPasswordTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.FormAuthenticationTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;formAuthenticationTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.FormAuthenticationTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.FrameIFrameValidationTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;frameIFrameValidationTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.FrameIFrameValidationTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.HorizontalSliderTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;horizontalSliderTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.HorizontalSliderTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.HoversValidationTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;hoversValidationTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.HoversValidationTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.InfiniteScrollTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;infiniteScrollTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.InfiniteScrollTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.InputsValidationTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;inputsValidationTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.InputsValidationTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.JavaScriptAlertsTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;javaScriptAlertsTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.JavaScriptAlertsTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.MultipleWindowsTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;multipleWindowsTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.MultipleWindowsTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.NestedFrameValidationTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;nestedFrameValidationTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.NestedFrameValidationTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.NotificationMessagesTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;notificationMessagesTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.NotificationMessagesTcAsif --&gt;
+      &lt;class name=&quot;com.ucb.nagad.testcases.RedirectLinkTcAsif&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;redirectLinkTcAsif&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ucb.nagad.testcases.RedirectLinkTcAsif --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UITest --&gt;
+&lt;/suite&gt; &lt;!-- Regression --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">UITest (29 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regression');
+function tableData_Regression() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'frameIFrameValidationTcAsif')
+data.setCell(0, 2, 'com.ucb.nagad.testcases.FrameIFrameValidationTcAsif')
+data.setCell(0, 3, 46023);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'dynamicControlsTcAsif')
+data.setCell(1, 2, 'com.ucb.nagad.testcases.DynamicControlsTcAsif')
+data.setCell(1, 3, 39491);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'redirectLinkTcAsif')
+data.setCell(2, 2, 'com.ucb.nagad.testcases.RedirectLinkTcAsif')
+data.setCell(2, 3, 37209);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'fileUploadTcAsif')
+data.setCell(3, 2, 'com.ucb.nagad.testcases.FileUploadTcAsif')
+data.setCell(3, 3, 28217);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'dropDownTcAsif')
+data.setCell(4, 2, 'com.ucb.nagad.testcases.DropDownTcAsif')
+data.setCell(4, 3, 28109);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'javaScriptAlertsTcAsif')
+data.setCell(5, 2, 'com.ucb.nagad.testcases.JavaScriptAlertsTcAsif')
+data.setCell(5, 3, 27985);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'infiniteScrollTcAsif')
+data.setCell(6, 2, 'com.ucb.nagad.testcases.InfiniteScrollTcAsif')
+data.setCell(6, 3, 25097);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'hoversValidationTcAsif')
+data.setCell(7, 2, 'com.ucb.nagad.testcases.HoversValidationTcAsif')
+data.setCell(7, 3, 23540);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'contextMenuTcAsif')
+data.setCell(8, 2, 'com.ucb.nagad.testcases.ContextMenuTcAsif')
+data.setCell(8, 3, 22203);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkBoxTcAsif')
+data.setCell(9, 2, 'com.ucb.nagad.testcases.CheckBoxTcAsif')
+data.setCell(9, 3, 17993);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'basicAuthTcAsif')
+data.setCell(10, 2, 'com.ucb.nagad.testcases.BasicAuthTcAsif')
+data.setCell(10, 3, 17084);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'notificationMessagesTcAsif')
+data.setCell(11, 2, 'com.ucb.nagad.testcases.NotificationMessagesTcAsif')
+data.setCell(11, 3, 16226);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'multipleWindowsTcAsif')
+data.setCell(12, 2, 'com.ucb.nagad.testcases.MultipleWindowsTcAsif')
+data.setCell(12, 3, 14548);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'dynamicContentTcAsif')
+data.setCell(13, 2, 'com.ucb.nagad.testcases.DynamicContentTcAsif')
+data.setCell(13, 3, 13831);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'forgotPasswordTcAsif')
+data.setCell(14, 2, 'com.ucb.nagad.testcases.ForgotPasswordTcAsif')
+data.setCell(14, 3, 13378);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'addRemoveElementsTcAsif')
+data.setCell(15, 2, 'com.ucb.nagad.testcases.AddRemoveElementsTcAsif')
+data.setCell(15, 3, 9987);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'inputsValidationTcAsif')
+data.setCell(16, 2, 'com.ucb.nagad.testcases.InputsValidationTcAsif')
+data.setCell(16, 3, 8709);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'horizontalSliderTcAsif')
+data.setCell(17, 2, 'com.ucb.nagad.testcases.HorizontalSliderTcAsif')
+data.setCell(17, 3, 7981);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'brokenImageTcAsif')
+data.setCell(18, 2, 'com.ucb.nagad.testcases.BrokenImageTcAsif')
+data.setCell(18, 3, 6532);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'disappearingElementsTcAsif')
+data.setCell(19, 2, 'com.ucb.nagad.testcases.DisappearingElementsTcAsif')
+data.setCell(19, 3, 3486);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'dragAndDropTcAsif')
+data.setCell(20, 2, 'com.ucb.nagad.testcases.DragAndDropTcAsif')
+data.setCell(20, 3, 3466);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'abTestingTcAsif')
+data.setCell(21, 2, 'com.ucb.nagad.testcases.AbTestingTcAsif')
+data.setCell(21, 3, 2689);
+window.suiteTableData['Regression']= { tableData: data, tableDiv: 'times-div-Regression'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Regression">
+              </div> <!-- times-div-Regression -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.ucb.nagad.testcases.FileDownloadTcAsif</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fileDownloadTcAsif</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.ucb.nagad.testcases.UserAbleToEnterFirstNameLastNameOnTheCreateAccountPopUp</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">userAbleToEnterFirstNameLastNameOnTheCreateAccountPopUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.ucb.nagad.testcases.FormAuthenticationTcAsif</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">FormAuthenticationTcAsif</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.ucb.nagad.testcases.NestedFrameValidationTcAsif</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">frameValidationTcAsif</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.ucb.nagad.testcases.UserAbleToValidateCreateNewAccount</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">userAbleToValidateCreateNewAccount</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.ucb.nagad.testcases.DigestAuthenticationTcAsif</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">digesAuthenticationTcAsif</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.AbTestingTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">2138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">abTestingTcAsif</span>
+                <span class="method-start">6855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">9552 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">9552 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.DisappearingElementsTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">10211 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">11519 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">disappearingElementsTcAsif</span>
+                <span class="method-start">16283 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">19769 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">19769 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.ForgotPasswordTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">20421 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">21711 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forgotPasswordTcAsif</span>
+                <span class="method-start">26443 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">39821 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">39821 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.FrameIFrameValidationTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">40464 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">41768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">frameIFrameValidationTcAsif</span>
+                <span class="method-start">46557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">92580 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">92580 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.NotificationMessagesTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">93252 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">94483 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">notificationMessagesTcAsif</span>
+                <span class="method-start">99192 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">115418 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">115418 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.AddRemoveElementsTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">116090 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">117392 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addRemoveElementsTcAsif</span>
+                <span class="method-start">122136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">132123 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">132123 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.DragAndDropTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">132807 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">134114 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">dragAndDropTcAsif</span>
+                <span class="method-start">139155 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">142621 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">142622 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.HorizontalSliderTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">143272 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">144537 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">horizontalSliderTcAsif</span>
+                <span class="method-start">149345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">157326 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">157326 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.RedirectLinkTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">157970 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">159213 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectLinkTcAsif</span>
+                <span class="method-start">167333 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">204542 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">204542 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.BasicAuthTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">205167 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">206454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">basicAuthTcAsif</span>
+                <span class="method-start">211173 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">228257 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">228257 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.DropDownTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">228931 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">230210 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dropDownTcAsif</span>
+                <span class="method-start">234959 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">263068 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">263068 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.HoversValidationTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">263712 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">264948 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hoversValidationTcAsif</span>
+                <span class="method-start">269694 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">293234 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">293234 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.BrokenImageTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">293888 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">295177 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">brokenImageTcAsif</span>
+                <span class="method-start">299978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">306510 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">306510 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.DynamicContentTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">307181 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">308485 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dynamicContentTcAsif</span>
+                <span class="method-start">316556 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">330387 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">330387 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.InfiniteScrollTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">331047 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">332263 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">infiniteScrollTcAsif</span>
+                <span class="method-start">337018 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">362115 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">362115 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.CheckBoxTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">362769 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">364074 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkBoxTcAsif</span>
+                <span class="method-start">371383 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">389376 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">389376 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.FileUploadTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">390022 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">391322 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fileUploadTcAsif</span>
+                <span class="method-start">396064 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">424281 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">424281 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.InputsValidationTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">424922 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">426162 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inputsValidationTcAsif</span>
+                <span class="method-start">430906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">439615 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">439615 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.ContextMenuTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">440258 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">441562 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contextMenuTcAsif</span>
+                <span class="method-start">448998 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">471201 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">471201 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.DynamicControlsTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">471863 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">473091 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dynamicControlsTcAsif</span>
+                <span class="method-start">478447 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">517938 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">517938 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.JavaScriptAlertsTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">518611 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">519905 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">javaScriptAlertsTcAsif</span>
+                <span class="method-start">527969 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">555954 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">555954 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ucb.nagad.testcases.MultipleWindowsTcAsif</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">556600 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">557899 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multipleWindowsTcAsif</span>
+                <span class="method-start">565080 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">579628 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">579628 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,20 @@
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression" verbose="1" >
+<test name="UITest">
+
+    <classes>
+        <class name ="com.ucb.ukash.testcases.UserAbleToEnterFirstNameLastNameOnTheCreateAccountPopUp">
+            <methods>
+                <include name="userAbleToEnterFirstNameLastNameOnTheCreateAccountPopUp" />
+            </methods>
+        </class>
+        <class name ="com.ucb.ukash.testcases.UserAbleToValidateCreateNewAccount">
+            <methods>
+                <exclude name="userAbleToValidateCreateNewAccount" />
+            </methods>
+        </class>
+    </classes>
+</test>
+
+</suite>
