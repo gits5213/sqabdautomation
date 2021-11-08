@@ -1,5 +1,8 @@
 package com.saucedemo.swaglabs.basicJava;
 
+
+import java.util.*;
+
 public class FirstClass {
 
         public static void main(String[] args) {
@@ -15,7 +18,7 @@ public class FirstClass {
         Logical Operator, = && ||
         Ternary Operator and = ? :
         Assignment Operator. = = += -= /=
-         */
+
 
         int a = 3;
         int b = 5;
@@ -25,8 +28,18 @@ public class FirstClass {
         System.out.println(a<b & a<c); //true & true = true
 
         System.out.println(a<b || a<c); //true && true = true
-        System.out.println(a<b | a<c); //true & true = true
+        System.out.println(a<b | a<c); //true & true = true */
+
+                //Creating Array
+                String[] array={"Java","Python","PHP","C++"};
+                System.out.println("Printing Array: "+ Arrays.toString(array));
+                List<String> list=new ArrayList<String>();
+                for(String lang:array){
+                        list.add(lang);
+                }
+                System.out.println("Printing List: "+list);
 
 
-    }
+
+        }
 }

@@ -14,29 +14,36 @@ public class BaseClass {
 
     @BeforeClass
     public void beforeClass(){
-        String baseDir = System.getProperty("user.dir");
+      /*  String baseDir = System.getProperty("user.dir");
         String chromeDir= baseDir + "/browser/chromedriver.exe ";
+
+        System.setProperty("webDriver.chrome.driver", chromeDir);
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);*/
+        String baseDir = System.getProperty("user.dir");
+
+        String chromeDir = baseDir + "/browser/chromedriver2.exe";
         System.setProperty("webdriver.chrome.driver", chromeDir);
+
+        //String firefoxDir = baseDir + "/browser/geckodriver";
+        //System.setProperty("webdriver.gecko.driver", firefoxDir);
+
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
-/*
+
+
     @BeforeMethod
-    public void beforeMethod() {
-        driver.navigate().to("https://www.facebook.com/");
-        sleepTest(2000);
-    }
-*/
-        @BeforeMethod
         public void beforeMethod() {
-         driver.navigate().to("http://the-internet.herokuapp.com/");
+        driver.navigate().to("http://the-internet.herokuapp.com/");
+        //driver.navigate().to("https://www.facebook.com/");
          sleepTest(2000);
         }
-
     @AfterMethod
     public void afterTest(){
-        System.out.println("Method is passing");
+        System.out.println(" ");
     }
 
     @AfterClass
@@ -47,8 +54,9 @@ public class BaseClass {
 
     public static void sleepTest(long sleeptime){
         try{Thread.sleep(sleeptime);
-        }catch (Exception e){
+        } catch (Exception e){
 
         }
     }
+
 }

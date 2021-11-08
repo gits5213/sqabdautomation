@@ -1,6 +1,7 @@
 package com.saucedemo.swaglabs.testCases;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+import com.saucedemo.swaglabs.pages.LogInSignUp;
+import com.saucedemo.swaglabs.utilities.Data;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class UserAbleToClickOnCreateNewAccount extends BaseClass {
@@ -8,12 +9,15 @@ public class UserAbleToClickOnCreateNewAccount extends BaseClass {
     @Test
     public  void  userAbleToClickOnCreateNewAccount ()  {
 
-        sleepTest(2000);
-
-        //testCase 1. Click on create New account button
-
-        WebElement createNewAccount = driver.findElement(By.cssSelector("div:nth-of-type(5) > a[role='button']"));
-        createNewAccount.click();
+        LogInSignUp lisp = new LogInSignUp(driver);
+        if ( lisp.getCreateNewAccount().isDisplayed()){
+            String createNewAccountText =lisp.getCreateNewAccount().getText();
+            Assert.assertEquals(Data.CREATE_NEW_ACCOUNT,createNewAccountText);
+        }
+        else {
+            System.out.println(Data.NEGATIVE_ERROR_MASSAGE);
+        }
+        lisp.getCreateNewAccount().click();
         sleepTest(2000);
 
     }

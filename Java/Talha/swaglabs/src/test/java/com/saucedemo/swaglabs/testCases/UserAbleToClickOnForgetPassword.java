@@ -1,26 +1,24 @@
 package com.saucedemo.swaglabs.testCases;
+import com.saucedemo.swaglabs.pages.ForgotPasswordPage;
+import com.saucedemo.swaglabs.pages.LogInSignUp;
 import com.saucedemo.swaglabs.utilities.Data;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 public class UserAbleToClickOnForgetPassword extends BaseClass {
-    @Test
+    @Test (enabled = true)
     public  void userAbleToClickOnForgetPassword ()  {
-        WebElement forgetPassword = driver.findElement(By.cssSelector("._6ltj > a"));
 
-        Actions action = new Actions(driver);
-        action.moveToElement(forgetPassword).build().perform();
-        sleepTest(2000);
-        forgetPassword.click();
-        sleepTest(2000);
-        WebElement phoneNumber = driver.findElement(By.cssSelector("input#identify_email"));
-        if(phoneNumber.isEnabled()){
-            phoneNumber.sendKeys(Data.phoneNumber);
+        LogInSignUp Lisp =new LogInSignUp(driver);
+        ForgotPasswordPage fp=new ForgotPasswordPage(driver);
+
+        sleepTest(1000);
+        Lisp.forgetPassword.click();
+        sleepTest(1000);
+      /*  if(fp.getPhoneNumber().isEnabled()){
+            fp.getPhoneNumber().sendKeys(Data.PHONE_NUMBER);
         }
         else{
-            System.out.println(Data.negativeErrorMassage);
+            System.out.println(Data.NEGATIVE_ERROR_MASSAGE);
         }
-        sleepTest(2000);
+        sleepTest(2000); */
     }
 }
