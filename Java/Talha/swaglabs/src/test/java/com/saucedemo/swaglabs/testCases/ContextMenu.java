@@ -3,6 +3,10 @@ package com.saucedemo.swaglabs.testCases;
 import com.saucedemo.swaglabs.pages.ContextMenuPage;
 import com.saucedemo.swaglabs.pages.TheInternet;
 import com.saucedemo.swaglabs.utilities.Data;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8f68ffadeb4e96a0b78931e4451439383d420661
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;

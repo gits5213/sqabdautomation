@@ -3,6 +3,11 @@ package com.saucedemo.swaglabs.testCases;
 import com.saucedemo.swaglabs.pages.FormAuthPage;
 import com.saucedemo.swaglabs.pages.TheInternet;
 import com.saucedemo.swaglabs.utilities.Data;
+<<<<<<< HEAD
+=======
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+>>>>>>> 8f68ffadeb4e96a0b78931e4451439383d420661
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

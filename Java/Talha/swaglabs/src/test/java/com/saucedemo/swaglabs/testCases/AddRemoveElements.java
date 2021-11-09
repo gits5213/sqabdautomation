@@ -5,11 +5,17 @@ import com.saucedemo.swaglabs.utilities.Data;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 public class AddRemoveElements extends BaseClass {
+<<<<<<< HEAD
 
     @Test
     public  void  addRemoveElements ()  {
 
 
+=======
+    @Test
+    public  void  addRemoveElements ()  {
+
+>>>>>>> 8f68ffadeb4e96a0b78931e4451439383d420661
         TheInternet ti = new TheInternet(driver);
         Add_remove_elements are =new Add_remove_elements(driver);
 
@@ -63,5 +69,9 @@ public class AddRemoveElements extends BaseClass {
         sleepTest(2000);
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8f68ffadeb4e96a0b78931e4451439383d420661
     }
 }
