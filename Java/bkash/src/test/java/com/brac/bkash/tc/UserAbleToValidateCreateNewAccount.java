@@ -1,7 +1,8 @@
 package com.brac.bkash.tc;
 
-import com.brac.bkash.pages.LogInSignUp;
-import com.brac.bkash.utilities.Data;
+import com.brac.bkash.MahbubLiveProject.pages.LogInSignUp;
+import com.brac.bkash.MahbubLiveProject.testCases.BaseTest;
+import com.brac.bkash.MahbubLiveProject.Data.Data;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

@@ -8,7 +8,7 @@ import io.restassured.response.*;
 import org.testng.annotations.Test;
 
 public class ListUserEndPointValidation {
-    String resourceEndPoint = "users";
+    String resourceEndPoint = "api/users";
     String parameter = "?page=";
     int pageNum = 2;
 
@@ -16,7 +16,13 @@ public class ListUserEndPointValidation {
 
     @Test
     public void listUserEndPointValidation(){
+<<<<<<< HEAD
 
+        System.out.println(GETListOfUsersEndPoint);
+
+=======
+        System.out.println(GETListOfUsersEndPoint);
+>>>>>>> 3621d1ef1cd04503958745d403704f6996431e89
         Response GetListResponse =
                         given().
                                 when().
@@ -24,10 +30,23 @@ public class ListUserEndPointValidation {
 
         GetListResponse.then()
                 .assertThat()
-                .time(lessThan(5000L))
-                .statusCode(Data.SUCCESSFULL_STATUS_CODE).log().all();
-
+                .time(lessThan(1000L))
+                .statusCode(Data.SUCCESSFUL_STATUS_CODE)//.log().all()
+            .body("page", equalTo(2),
+                "per_page", equalTo(6),
+                "total", equalTo (12),
+                "total_pages", equalTo (2));
         assertNotNull(GetListResponse);
+
+        String listResp = GetListResponse.getBody().asString();
+        System.out.println(Data.RESPONSE_BODY_IS + listResp);
+
+        int listStatusCode = GetListResponse.getStatusCode();
+        System.err.println(Data.RESPONSE_STATUS_CODE_IS + listStatusCode);
+
+        long listResponseTime = GetListResponse.getTime();
+        System.out.println(Data.RESPONSE_TIME_IS + listResponseTime);
+
     }
 
 }

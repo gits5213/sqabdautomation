@@ -7,7 +7,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50dfb62c-55d6-4064-92ba-9c2429036a5e" name="Default Changelist" comment="" />
+    <list default="true" id="50dfb62c-55d6-4064-92ba-9c2429036a5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_testng_testng_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../API/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../API/bkashApi/bkashApi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../API/bkashApi/bkashApi.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mahbub/Basic Java Learning/aarong/src/test/java/com/brac/aarong/AppTest.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mahbub/Basic Java Learning/aarong" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -64,6 +72,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Desktop\Github\sqabdautomation\Java\bkash\browser" />
+      <recent name="C:\Users\Admin\Desktop\Github\sqabdautomation\Java\bkash\Files" />
       <recent name="$PROJECT_DIR$/browser" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -82,17 +91,17 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.InputTest.inputTest">
+  <component name="RunManager" selected="TestNG.ABTesting.aBTesting">
     <configuration name="ABTesting.aBTesting" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="bkash" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.brac.bkash.tc.*" />
+          <option name="PATTERN" value="com.brac.bkash.MahbubLiveProject.testCases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.brac.bkash.tc" />
-      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.tc.ABTesting" />
+      <option name="PACKAGE_NAME" value="com.brac.bkash.MahbubLiveProject.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.MahbubLiveProject.testCases.ABTesting" />
       <option name="METHOD_NAME" value="aBTesting" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -101,7 +110,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InScrollTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BrokenLinkCheck.brokenLinkCheck" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="bkash" />
       <extension name="coverage">
         <pattern>
@@ -110,42 +119,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.brac.bkash.tc" />
-      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.tc.InScrollTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InScrollTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="bkash" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.brac.bkash.tc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.brac.bkash.tc" />
-      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.tc.InScrollTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InScrollTest.inScrollTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="bkash" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.brac.bkash.tc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.brac.bkash.tc" />
-      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.tc.InScrollTest" />
-      <option name="METHOD_NAME" value="inScrollTest" />
+      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.tc.BrokenLinkCheck" />
+      <option name="METHOD_NAME" value="brokenLinkCheck" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -153,17 +128,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputTest.inputTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContextMenuTest.contextMenuTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="bkash" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.brac.bkash.tc.*" />
+          <option name="PATTERN" value="com.brac.bkash.MahbubLiveProject.testCases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.brac.bkash.tc" />
-      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.tc.InputTest" />
-      <option name="METHOD_NAME" value="inputTest" />
+      <option name="PACKAGE_NAME" value="com.brac.bkash.MahbubLiveProject.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.MahbubLiveProject.testCases.ContextMenuTest" />
+      <option name="METHOD_NAME" value="contextMenuTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DissapearingElements.dissapearingElements" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bkash" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brac.bkash.MahbubLiveProject.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.brac.bkash.MahbubLiveProject.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.MahbubLiveProject.testCases.DissapearingElements" />
+      <option name="METHOD_NAME" value="dissapearingElements" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicControl.dynamicControl" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bkash" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brac.bkash.MahbubLiveProject.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.brac.bkash.MahbubLiveProject.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.brac.bkash.MahbubLiveProject.testCases.DynamicControl" />
+      <option name="METHOD_NAME" value="dynamicControl" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -173,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.InputTest.inputTest" />
-        <item itemvalue="TestNG.InScrollTest.inScrollTest" />
-        <item itemvalue="TestNG.InScrollTest (1)" />
-        <item itemvalue="TestNG.InScrollTest" />
         <item itemvalue="TestNG.ABTesting.aBTesting" />
+        <item itemvalue="TestNG.DynamicControl.dynamicControl" />
+        <item itemvalue="TestNG.BrokenLinkCheck.brokenLinkCheck" />
+        <item itemvalue="TestNG.ContextMenuTest.contextMenuTest" />
+        <item itemvalue="TestNG.DissapearingElements.dissapearingElements" />
       </list>
     </recent_temporary>
   </component>
